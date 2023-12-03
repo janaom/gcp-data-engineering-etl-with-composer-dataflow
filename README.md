@@ -12,8 +12,11 @@ Upload csv file to your bucket
 # Beam code
 
 Set the project: `gcloud config set project your-project-id`
+
 Install Apache Beam: `pip install apache-beam[gcp]`
+
 Run Beam code: `python beam.py --input gs://de-project-food-orders/food_daily.csv --temp_location gs://de-project-food-orders`
+
 
 ![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/6130ae85-b30a-4dc0-ac98-599294250bcb)
 
