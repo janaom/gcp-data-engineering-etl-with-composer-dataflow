@@ -50,3 +50,25 @@ It took me around 15min to create Composer 1 environment.
 
 ![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/177f66db-9af2-439b-a12a-8278b66500a3)
 
+Upload Beam code to your Composer bucket
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/cad8071f-ae4f-45ed-9fa6-96e153b4aa98)
+
+Then go to the object details and copy gsutil URI and paste it in the DAG file (py_file)
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/dc1f7432-b812-4551-b188-a76e13258066)
+
+Upload the Airflow code to the dags folder
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/c67d352b-87a5-452e-99e0-46087570859b)
+
+The DAG will appear in Airflow UI
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/86cb3dfb-0dc4-4731-8d9b-87bad82a7530)
+
+You can trigger the DAG manually (click on Trigger DAG)
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/2565b3f2-7a34-410d-8426-7f1863370a06)
+
+
+
