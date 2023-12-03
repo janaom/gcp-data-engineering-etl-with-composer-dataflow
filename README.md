@@ -28,6 +28,7 @@ Results in BQ
 # Cloud Composer/Airflow 
 
 Enable Cloud Composer API.
+Enable Dataflow API.
 
 ## Composer 1
 
