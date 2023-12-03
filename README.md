@@ -69,7 +69,22 @@ The DAG will appear in Airflow UI
 
 You can trigger the DAG manually (click on Trigger DAG)
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/2565b3f2-7a34-410d-8426-7f1863370a06)
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/c5b916c1-10f5-453a-adcc-7007ba9d2ed7)
+
+Open Dataflow to see the progress
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/5b044d8d-8643-4393-a256-a66eb50e97af)
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/b75ce917-7739-4646-adfc-c7ab0a9564a6)
+
+Red means the run failed, green - succeed
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/8d8774a6-1874-4d4f-82c2-12dd4f03b37a)
+
+You can click on the task and check the logs
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/9befd9b8-d551-4c37-bd39-1e544752b6d8)
+
 
 
 
