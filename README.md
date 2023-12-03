@@ -37,7 +37,8 @@ More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/c
 
 Create a Composer environment
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/65803e86-6393-48e8-9555-44ce5bc3f285)
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/031c2d67-4a57-4139-a408-c8a51a02ed52)
+
 
  - Select n1-standard-1 (1 vCPU, 3.75 GB RAM)
 
