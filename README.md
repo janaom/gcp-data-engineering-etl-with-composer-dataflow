@@ -87,3 +87,7 @@ You can click on the task and check the logs
 
 Check the result in BQ. 
 
+Changed view part
+
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/aeecee47-a1b8-4eb9-8ac4-15aeb4039927)
+
