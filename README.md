@@ -48,4 +48,5 @@ Create a Composer environment
 
 It took me around 15min to create Composer 1 environment. 
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/3e5897e4-602f-4da0-8517-10d4bc487c3b)
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/177f66db-9af2-439b-a12a-8278b66500a3)
+
