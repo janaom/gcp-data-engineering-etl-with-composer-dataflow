@@ -1,0 +1,892 @@
+﻿Customer_id,date,time,order_id,items,amount,mode,restaurnt,Status,ratings,feedback
+JXJY167254JK,11/10/2023,8.31.21,654S654,PiZza:Marga?ritA:WATERZOOI:Crispy Onion Rings,21,Wallet,Brussels Mussels ,Delivered,2,Late delivery
+JXJY167254JK,11/10/2023,9.31.21,2444454,Noodles:Pizza:BREAD,97,Card,Saint German,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,4.31.31,397T397,Fried Rice:salaD,46,Card,Brussels Mussels ,Delivered,3,Complicated procedure
+UFDF355524DM,11/10/2023,5.31.21,428K428,noo%dles:,71,Card,Gaspar's,Delivered,1,Food not good
+FRBT691245BA,11/10/2023,6.31.21,437M437,Soup of the day:,29,Online,Sushi Masters,Delivered,1,Stale food
+QTSI285174SG,11/10/2023,8.31.21,106S106,Fried Rice:,59,Cash,Stebuklai,Delivered,2,Complicated procedure
+OXJY167254JK,11/10/2023,8.11.21,854A854,Olives:,65,Cash,Saint German,Not delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,751C751,Quiche:,28,Wallet,Telegrafas,Delivered,2,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,742G742,Bread:,86,Card,Da Antonio,Delivered,1,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,103Y103,RAVIOLI:,94,Online,Augustin,Delivered,2,Late delivery
+FSAM929386AQ,11/10/2023,8.31.21,208U208,tuna steak:,33,Wallet,Brussels Mussels ,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,819Q819,Regular:,86,Cash,Telegrafas,Delivered,4,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,107K107,fries:,50,Card,Sushi Masters,Delivered,4,Delicious food
+FSAM929386AQ,11/10/2023,8.31.21,671T671,BURRATA DI BUFALA:,82,Card,Gaspar's,On Hold,5,Good service
+QTSI285174SG,11/10/2023,8.31.21,195K195,Crispy Onion Rings:,40,Cash,Gaspar's,Delivered,1,High price
+QTSI285174SG,11/10/2023,8.31.21,952U952,pickle:,29,Online,Stebuklai,Delivered,3,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,833E833,shake:,33,Cash,Brussels Mussels ,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,139A139,Benedict:,69,Cash,Augustin,Delivered,1,High price
+SBXX592702XP,11/10/2023,8.31.21,256A256,Mango Cremeux:,92,Wallet,Da Antonio,Delivered,4,Delicious food
+FRBT691245BA,11/10/2023,8.31.21,186Q186,salad:,61,Online,Da Antonio,Cancelled,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,956U956,Banana shake:,87,Cash,Demoloftas,Cancelled,4,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,506K506,salad:,37,Online,Gaspar's,Cancelled,4,Good service
+LRKI603654KL,11/10/2023,8.31.21,739A739,Quiche:,51,Card,Augustin,Cancelled,2,High price
+OXJY167254JK,11/10/2023,8.31.21,428U428,meatballs:,53,Cash,Telegrafas,Cancelled,3,Stale food
+FRBT691245BA,11/10/2023,8.31.21,902L902,Veg Premium Burger:,58,Wallet,Sushi Masters,Delivered,5,Good service
+UYXR411673XC,11/10/2023,8.31.21,683T683,tuna steak:,93,Cash,Gaspar's,Delivered,2,Stale food
+SAMV824387MW,11/10/2023,8.31.21,635C635,salad:,31,Cash,Brussels Mussels ,Delivered,3,Late delivery
+FSAM929386AQ,11/10/2023,8.31.21,680J680,lamb:,678,Wallet,Le Travi,Delivered,5,Awesome experience
+SBXX592702XP,11/10/2023,8.31.21,723V723,lamb:,80,Cash,Augustin,Delivered,5,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,567U567,Curd:,70,Card,Le Travi,Delivered,2,Difficult to order
+SAMV824387MW,11/10/2023,8.31.21,148W148,Mango shake:,64,Online,Veranda,Delivered,5,Easy to order
+FSAM929386AQ,11/10/2023,8.31.21,391A391,Burrata salad:,76,Cash,Saint German,Delivered,2,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,131W131,Regular:,66,Cash,Sushi Masters,Delivered,5,Awesome experience
+XVTR474839TP,11/10/2023,8.31.21,864V864,RAVIOLI:,45,Online,Telegrafas,Delivered,2,Coupon applied
+LRKI603654KL,11/10/2023,8.31.21,538H538,shake:,56,Card,Le Travi,Delivered,1,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,481Q481,BURRATA DI BUFALA:,68,Card,Veranda,Delivered,4,Worth
+QTSI285174SG,11/10/2023,8.31.21,382X382,Burrata salad:,57,Card,Saint German,Delivered,3,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,582O582,fries:,82,Cash,Le Travi,Delivered,5,Fast delivery
+FRBT691245BA,11/10/2023,8.31.21,889S889,pickle:,39,Wallet,Telegrafas,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,660E660,Veg Premium Burger:,89,Card,Veranda,Delivered,3,High price
+LJBO9511000BL,11/10/2023,8.31.21,936X936,Bread:,92,Online,Augustin,Delivered,2,High price
+JXJY167254JK,11/10/2023,8.31.21,954S654,Scallops:RAVIOLI:Benedict,77,Wallet,Le Travi,Delivered,3,Late delivery
+JXJY167254JK,11/10/2023,8.31.21,154S644,Quiche:Noodles:Bread,123,Card,Sushi Masters,Not delivered,4,Will order again
+FRBT691245BA,11/10/2023,8.31.21,579N579,salad:,62,Online,Stebuklai,Not delivered,2,Delivery boy didnt come at doorstep
+UYXR411673XC,11/10/2023,8.31.21,253O253,BURRATA DI BUFALA:,70,Card,Brussels Mussels ,Not delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,704P704,tartlet:,26,Wallet,Le Travi,Not delivered,3,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,866Q866,BURRATA DI BUFALA:,66,Wallet,Brussels Mussels ,Not delivered,2,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,152I152,Banana shake:,50,Cash,Telegrafas,Not delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,837W837,tartlet:,74,Card,Gaspar's,Delivered,1,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,200B200,Noodles:,36,Wallet,Sushi Masters,Delivered,4,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,358R358,salad:,83,Card,Stebuklai,Delivered,1,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,537J537,Mango shake:,49,Online,Selfish,Delivered,2,Complicated procedure
+FSAM929386AQ,11/10/2023,8.31.21,997G997,Scallops:,88,Online,Le Travi,Delivered,4,Complicated procedure
+SBXX592702XP,11/10/2023,8.31.21,765X765,Benedict:,99,Wallet,Telegrafas,Delivered,2,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,180B180,Soup of the day:,41,Online,Augustin,Delivered,3,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,282G282,Mango Cremeux:,88,Card,Stebuklai,Delivered,5,Complicated procedure
+JXJY167254JK,11/10/2023,8.31.21,454S654,Noodles:Crispy Onion Rings:Bread,67,Wallet,Brussels Mussels ,Delivered,5,Complicated procedure
+JXJY167254JK,11/10/2023,8.31.21,354S654,Quiche:RAVIOLI,90,Wallet,Sushi Masters,Delivered,4,Will order again
+JXJY167254JK,11/10/2023,8.31.21,454S654,Rucola salad:Noodles,96,Wallet,Saint German,Delivered,4,Will order again
+JXJY167254JK,11/10/2023,8.31.21,654S754,Quiche:Scallops:Bread,127,Wallet,Le Travi,On Hold,4,Will order again
+JXJY167254JK,11/10/2023,8.31.21,554S854,Noodles,67,Wallet,Demoloftas,On Hold,4,Will order again
+JXJY167254JK,11/10/2023,8.31.21,654S954,Quiche:Pizza:Bread,97,Wallet,Brussels Mussels ,On Hold,4,Awesome experience
+JXJY167254JK,11/10/2023,8.31.21,754S254,Pizza:as:Bread,237,Card,Sushi Masters,On Hold,4,Will order again
+JXJY167254JK,11/10/2023,8.31.21,854S354,Quiche:RAVIOLI:Benedict,98,Wallet,Sushi Masters,On Hold,3,Late delivery
+JXJY167254JK,11/10/2023,8.31.21,154S454,Pizza:Noodles:Crispy Onion Rings,107,Wallet,Sushi Masters,On Hold,3,Late delivery
+JXJY167254JK,11/10/2023,8.31.21,954S554,Quiche:Scallops:Bread,27,Card,Sushi Masters,On Hold,3,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,354H354,Benedict:,91,Card,Augustin,On Hold,2,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,263Z263,meatballs:,58,Card,Demoloftas,On Hold,5,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,631I631,shake:,47,Wallet,Da Antonio,Delivered,5,Fast delivery
+UFDF355524DM,11/10/2023,8.31.21,436K436,Regular:,72,Cash,Brussels Mussels ,Delivered,4,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,508M508,Curd:,32,Card,Veranda,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,894A894,Regular:,96,Cash,Telegrafas,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,193H193,Curd:,96,Online,Gaspar's,Delivered,4,Easy to order
+LRKI603654KL,11/10/2023,8.31.21,501U501,tartlet:,64,Wallet,Gaspar's,Delivered,1,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,400Q400,pickle:,55,Wallet,Veranda,Delivered,2,Delivery boy didnt come at doorstep
+FSAM929386AQ,11/10/2023,8.31.21,895R895,Veg Premium Burger:,88,Wallet,Selfish,Delivered,3,Stale food
+QTSI285174SG,11/10/2023,8.31.21,966I966,pickle:,46,Wallet,Stebuklai,Delivered,2,Stale food
+FSAM929386AQ,11/10/2023,8.31.21,281A281,shake:,42,Online,Augustin,Delivered,1,Coupon applied
+FSAM929386AQ,11/10/2023,8.31.21,213F213,shake:,50,Online,Demoloftas,Delivered,1,Food not good
+SAMV824387MW,11/10/2023,8.31.21,570O570,fries:,52,Wallet,Da Antonio,Delivered,1,High price
+QTSI285174SG,11/10/2023,8.31.21,892Z892,lamb:,54,Wallet,Demoloftas,Delivered,2,Coupon applied
+OXJY167254JK,11/10/2023,8.31.21,190V190,Fried Rice:,66,Wallet,Da Antonio,Delivered,1,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,397T397,Fried Rice:,46,Card,Brussels Mussels ,Delivered,3,Complicated procedure
+UFDF355524DM,11/10/2023,8.31.21,428K428,Noodles:,71,Card,Gaspar's,Delivered,1,Food not good
+FRBT691245BA,11/10/2023,8.31.21,437M437,Soup of the day:,29,Online,Sushi Masters,Delivered,1,Stale food
+QTSI285174SG,11/10/2023,8.31.21,106S106,Fried Rice:,59,Cash,Stebuklai,Delivered,2,Complicated procedure
+OXJY167254JK,11/10/2023,8.31.21,854A854,Rucola salad:,65,Cash,Saint German,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,751C751,Quiche:,28,Wallet,Telegrafas,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,186Q186,salad:,61,Online,Da Antonio,Delivered,2,High price
+LJBO9511000BL,11/10/2023,8.31.21,956U956,Banana shake:,87,Cash,Demoloftas,Delivered,4,High price
+SAMV824387MW,11/10/2023,8.31.21,506K506,salad:,37,Online,Gaspar's,Delivered,4,High price
+LRKI603654KL,11/10/2023,8.31.21,739A739,Quiche:,51,Card,Augustin,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,428U428,meatballs:,53,Cash,Telegrafas,Delivered,3,High price
+FRBT691245BA,11/10/2023,8.31.21,902L902,Veg Premium Burger:,58,Wallet,Sushi Masters,Delivered,5,High price
+UYXR411673XC,11/10/2023,8.31.21,683T683,tuna steak:,93,Cash,Gaspar's,Delivered,2,High price
+SAMV824387MW,11/10/2023,8.31.21,635C635,salad:,96,Cash,Brussels Mussels ,Delivered,3,High price
+FSAM929386AQ,11/10/2023,8.31.21,680J680,lamb:,30,Wallet,Le Travi,Delivered,5,Awesome experience
+SBXX592702XP,11/10/2023,8.31.21,723V723,lamb:,80,Cash,Augustin,Delivered,5,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,567U567,Curd:,70,Card,Le Travi,Delivered,2,Difficult to order
+SAMV824387MW,11/10/2023,8.31.21,148W148,Mango shake:,64,Online,Veranda,Delivered,5,Easy to order
+FSAM929386AQ,11/10/2023,8.31.21,391A391,Olives:,76,Cash,Saint German,Delivered,2,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,131W131,Regular:,66,Cash,Sushi Masters,Delivered,5,Awesome experience
+XVTR474839TP,11/10/2023,8.31.21,864V864,RAVIOLI:,45,Online,Telegrafas,Delivered,2,Coupon applied
+LRKI603654KL,11/10/2023,8.31.21,538H538,shake:,56,Card,Le Travi,Delivered,1,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,481Q481,BURRATA DI BUFALA:,68,Card,Veranda,Delivered,4,Worth
+QTSI285174SG,11/10/2023,8.31.21,382X382,Octopus salad:,57,Card,Saint German,Delivered,3,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,582O582,fries:,82,Cash,Le Travi,Delivered,5,Fast delivery
+FRBT691245BA,11/10/2023,8.31.21,889S889,pickle:,39,Wallet,Telegrafas,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,660E660,Veg Premium Burger:,89,Card,Veranda,Delivered,3,High price
+LJBO9511000BL,11/10/2023,8.31.21,936X936,Bread:,92,Online,Augustin,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,579N579,salad:,62,Online,Stebuklai,Delivered,2,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,837W837,tartlet:,74,Card,Gaspar's,Delivered,1,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,200B200,Noodles:,36,Wallet,Sushi Masters,Delivered,4,Fast delivery
+LRKI603654KL,11/10/2023,8.31.21,145T145,shake:,41,Wallet,Sushi Masters,Delivered,2,Late delivery
+QTSI285174SG,11/10/2023,8.31.21,838T838,Curd:,91,Cash,Gaspar's,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,155N155,Veg Premium Burger:,83,Cash,Da Antonio,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,117W117,Banana shake:,99,Card,Sushi Masters,Delivered,2,Delivery boy didnt come at doorstep
+FSAM929386AQ,11/10/2023,8.31.21,370L370,Crispy Onion Rings:,93,Cash,Veranda,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,281U281,Mango Cremeux:,49,Cash,Sushi Masters,Delivered,2,Difficult to order
+QTSI285174SG,11/10/2023,8.31.21,947M947,tuna steak:,27,Cash,Le Travi,Delivered,1,High price
+UYXR411673XC,11/10/2023,8.31.21,269G269,Noodles:,99,Online,Telegrafas,Delivered,1,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,365K365,Scallops:,88,Online,Le Travi,Delivered,4,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,765X765,Fried Rice:,82,Wallet,Veranda,Delivered,4,Fast delivery
+UYXR411673XC,11/10/2023,8.31.21,151T151,Soup of the day:,41,Online,Augustin,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,255O255,Fried Rice:,76,Online,Augustin,Delivered,3,Stale food
+SAMV824387MW,11/10/2023,8.31.21,282G282,Mango Cremeux:,88,Card,Stebuklai,Delivered,5,Stale food
+SBXX592702XP,11/10/2023,8.31.21,596A596,chocolate mousse,38,Card,Le Travi,Delivered,4,Stale food
+SBXX592702XP,11/10/2023,8.31.21,372X372,Scallops:,70,Wallet,Demoloftas,Delivered,5,Stale food
+SAMV824387MW,11/10/2023,8.31.21,682D682,pickle:,73,Cash,Veranda,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,271V271,shake:,67,Cash,Sushi Masters,Delivered,2,Stale food
+SAMV824387MW,11/10/2023,8.31.21,607K607,Pizza:,24,Cash,Selfish,Delivered,2,Stale food
+OXJY167254JK,11/10/2023,8.31.21,986I986,meatballs:,92,Wallet,Selfish,Delivered,4,Stale food
+LRKI603654KL,11/10/2023,8.31.21,107D107,fries:,56,Wallet,Gaspar's,Delivered,2,Stale food
+LRKI603654KL,11/10/2023,8.31.21,470N470,Noodles:,27,Cash,Demoloftas,Delivered,1,Stale food
+LRKI603654KL,11/10/2023,8.31.21,473Z473,pickle:,70,Cash,Augustin,Delivered,5,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,996F996,Mango shake:,74,Online,Saint German,Delivered,1,Stale food
+UFDF355524DM,11/10/2023,8.31.21,436K436,Regular:,72,Cash,Brussels Mussels ,Delivered,4,Stale food
+SBXX592702XP,11/10/2023,8.31.21,514H514,Banana shake:,87,Wallet,Veranda,Delivered,3,Stale food
+FRBT691245BA,11/10/2023,8.31.21,713F713,shake:,32,Online,Da Antonio,Delivered,5,Stale food
+LRKI603654KL,11/10/2023,8.31.21,592A592,Curd:,32,Card,Veranda,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,894A894,Regular:,96,Cash,Telegrafas,Delivered,2,Stale food
+XVTR474839TP,11/10/2023,8.31.21,452P452,Mango Cremeux:,32,Card,Gaspar's,Delivered,1,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,193H193,Curd:,96,Online,Gaspar's,Delivered,4,Easy to order
+LRKI603654KL,11/10/2023,8.31.21,985E985,BURRATA DI BUFALA:,88,Cash,Telegrafas,Delivered,1,Complicated procedure
+FSAM929386AQ,11/10/2023,8.31.21,104T104,Bread:,42,Wallet,Selfish,Delivered,2,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,898B898,Veg Premium Burger:,69,Card,Stebuklai,Delivered,2,Stale food
+XVTR474839TP,11/10/2023,8.31.21,400Q400,pickle:,55,Wallet,Veranda,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,585X585,Waterzooi:,62,Wallet,Brussels Mussels ,Delivered,5,Awesome experience
+UYXR411673XC,11/10/2023,8.31.21,335D335,Benedict:,81,Online,Veranda,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,576M576,Veg Premium Burger:,23,Wallet,Gaspar's,Delivered,5,Nice
+XVTR474839TP,11/10/2023,8.31.21,983X983,salad:,100,Wallet,Saint German,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,589I589,Regular:,58,Wallet,Selfish,Delivered,5,Easy to order
+LJBO9511000BL,11/10/2023,8.31.21,835W835,Curd:,72,Cash,Augustin,Delivered,5,Cheap and best
+LRKI603654KL,11/10/2023,8.31.21,808W808,Prawn salad:,85,Wallet,Brussels Mussels ,Delivered,1,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,769Z769,Natural Tea:,83,Card,Brussels Mussels ,Delivered,1,Food not good
+QTSI285174SG,11/10/2023,8.31.21,690I690,Noodles:,76,Wallet,Selfish,Delivered,2,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,748R748,Banana shake:,68,Online,Gaspar's,Delivered,3,Stale food
+QTSI285174SG,11/10/2023,8.31.21,710W710,salad:,80,Online,Telegrafas,Delivered,3,Coupon applied
+FSAM929386AQ,11/10/2023,8.31.21,281A281,shake:,42,Online,Augustin,Delivered,1,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,932U932,Curd:,84,Online,Brussels Mussels ,Delivered,1,Stale food
+UFDF355524DM,11/10/2023,8.31.21,451O451,Mango shake:,27,Wallet,Selfish,Delivered,4,Will order again
+FRBT691245BA,11/10/2023,8.31.21,539U539,SALMON SALAD:,25,Card,Gaspar's,Delivered,2,Complicated procedure
+FRBT691245BA,11/10/2023,8.31.21,327P327,salad:,87,Card,Stebuklai,Delivered,4,Delicious food
+UFDF355524DM,11/10/2023,8.31.21,599Y599,BURRATA DI BUFALA:,27,Card,Sushi Masters,Delivered,2,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,493N493,chocolate mousse,100,Cash,Telegrafas,Delivered,3,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,570O570,fries:,52,Wallet,Da Antonio,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,635M635,pickle:,56,Wallet,Selfish,Delivered,4,Nice
+SBXX592702XP,11/10/2023,8.31.21,768Y768,Scallops:,88,Cash,Gaspar's,Delivered,2,High price
+FSAM929386AQ,11/10/2023,8.31.21,495Q495,Quiche:,30,Wallet,Da Antonio,Delivered,1,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,761G761,HALIBUT CEVICHE:,96,Wallet,Gaspar's,Delivered,5,Nice
+SAMV824387MW,11/10/2023,8.31.21,414U414,fries:,56,Card,Demoloftas,Delivered,3,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,783Z783,BURRATA DI BUFALA:,60,Wallet,Gaspar's,Delivered,2,Food not good
+LRKI603654KL,11/10/2023,8.31.21,672W672,Mango shake:,58,Online,Selfish,Delivered,3,High price
+OXJY167254JK,11/10/2023,8.31.21,157H157,RAVIOLI:,43,Online,Gaspar's,Delivered,5,Cheap and best
+LRKI603654KL,11/10/2023,8.31.21,357R357,Regular:,99,Cash,Gaspar's,Delivered,3,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,905K905,meatballs:,46,Online,Augustin,Delivered,4,Will order again
+UYXR411673XC,11/10/2023,8.31.21,424L424,Mango shake:,98,Cash,Le Travi,Delivered,3,Coupon applied
+SAMV824387MW,11/10/2023,8.31.21,141F141,shake:,78,Wallet,Demoloftas,Delivered,2,Food not good
+FRBT691245BA,11/10/2023,8.31.21,215C215,Curd:,40,Card,Da Antonio,Delivered,2,High price
+LJBO9511000BL,11/10/2023,8.31.21,925W925,RAVIOLI:,46,Wallet,Augustin,Delivered,2,Stale food
+LRKI603654KL,11/10/2023,8.31.21,747N747,Bread:,93,Wallet,Augustin,Delivered,1,Food not good
+FRBT691245BA,11/10/2023,8.31.21,441R441,Veg Premium Burger:,31,Card,Gaspar's,Delivered,5,Worth
+FSAM929386AQ,11/10/2023,8.31.21,292Q292,pickle:,49,Wallet,Demoloftas,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,933W933,Mango shake:,44,Card,Stebuklai,Delivered,4,Cheap and best
+LJBO9511000BL,11/10/2023,8.31.21,712N712,meatballs:,42,Card,Augustin,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,654S654,Soup of the day:,25,Online,Demoloftas,Delivered,5,Awesome experience
+QTSI285174SG,11/10/2023,8.31.21,556T556,Soup of the day:,70,Wallet,Brussels Mussels ,Delivered,2,Late delivery
+SBXX592702XP,11/10/2023,8.31.21,594V594,Mango Cremeux:,72,Wallet,Gaspar's,Delivered,1,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,448B448,Veg Premium Burger:,37,Cash,Gaspar's,Delivered,5,Nice
+FRBT691245BA,11/10/2023,8.31.21,437M437,Soup of the day:,29,Online,Sushi Masters,Delivered,1,Stale food
+QTSI285174SG,11/10/2023,8.31.21,838O838,Noodles:,20,Card,Stebuklai,Delivered,4,Good service
+SAMV824387MW,11/10/2023,8.31.21,840A840,Bread:,27,Cash,Demoloftas,Delivered,2,Delivery boy didnt come at doorstep
+FRBT691245BA,11/10/2023,8.31.21,549N549,Regular:,45,Wallet,Sushi Masters,Delivered,5,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,331B331,Waterzooi:,40,Wallet,Brussels Mussels ,Delivered,2,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,816T816,Curd:,57,Online,Brussels Mussels ,Delivered,2,Coupon applied
+SAMV824387MW,11/10/2023,8.31.21,751C751,Quiche:,28,Wallet,Telegrafas,Delivered,2,Difficult to order
+QTSI285174SG,11/10/2023,8.31.21,284O284,Soup of the day:,40,Online,Selfish,Delivered,4,Worth
+LRKI603654KL,11/10/2023,8.31.21,673X673,Pizza:,44,Card,Le Travi,Delivered,5,Easy to order
+UFDF355524DM,11/10/2023,8.31.21,998P998,Pizza:,97,Online,Brussels Mussels ,Delivered,2,Stale food
+UFDF355524DM,11/10/2023,8.31.21,667M667,Pizza:,95,Wallet,Brussels Mussels ,Delivered,2,High price
+SBXX592702XP,11/10/2023,8.31.21,233S233,fries:,66,Online,Selfish,Delivered,4,Worth
+UYXR411673XC,11/10/2023,8.31.21,247T247,BURRATA DI BUFALA:,86,Card,Demoloftas,Delivered,4,Easy to order
+SBXX592702XP,11/10/2023,8.31.21,835U835,Noodles:,47,Wallet,Saint German,Delivered,2,Food not good
+SBXX592702XP,11/10/2023,8.31.21,324V324,Mango Cremeux:,100,Cash,Le Travi,Delivered,5,Nice
+SAMV824387MW,11/10/2023,8.31.21,379G379,Fried burrata :,27,Card,Brussels Mussels ,Delivered,2,Food not good
+SBXX592702XP,11/10/2023,8.31.21,585U585,Mango shake:,21,Wallet,Brussels Mussels ,Delivered,1,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,957M957,Veg Premium Burger:,82,Cash,Brussels Mussels ,Delivered,3,Difficult to order
+FSAM929386AQ,11/10/2023,8.31.21,881T881,shake:,62,Card,Gaspar's,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,177A177,Bread:,32,Wallet,Demoloftas,Delivered,2,Food not good
+FSAM929386AQ,11/10/2023,8.31.21,737Q737,Soup of the day:,39,Online,Selfish,Delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,524G524,HALIBUT CEVICHE:,75,Online,Le Travi,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,374Z374,Octopus salad:,91,Cash,Saint German,Delivered,4,Easy to order
+SBXX592702XP,11/10/2023,8.31.21,895Y895,shake:,56,Wallet,Da Antonio,Delivered,5,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,471O471,pickle:,65,Card,Saint German,Delivered,3,Stale food
+FRBT691245BA,11/10/2023,8.31.21,143C143,SALMON SALAD:,97,Wallet,Gaspar's,Delivered,3,High price
+OXJY167254JK,11/10/2023,8.31.21,504H504,Quiche:,50,Online,Saint German,Delivered,1,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,223C223,fries:,33,Wallet,Demoloftas,Delivered,5,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,956U956,Banana shake:,87,Cash,Demoloftas,Delivered,4,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,506K506,salad:,37,Online,Gaspar's,Delivered,4,Good service
+SBXX592702XP,11/10/2023,8.31.21,190Y190,fries:,92,Card,Demoloftas,Delivered,5,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,578W578,Curd:,27,Online,Le Travi,Delivered,4,Delicious food
+FSAM929386AQ,11/10/2023,8.31.21,925D925,pickle:,63,Wallet,Brussels Mussels ,Delivered,3,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,302V302,chocolate mousse,89,Card,Stebuklai,Delivered,1,Delivery boy didnt come at doorstep
+UYXR411673XC,11/10/2023,8.31.21,683T683,tuna steak:,93,Cash,Gaspar's,Delivered,2,Stale food
+SAMV824387MW,11/10/2023,8.31.21,710Z710,Regular:,75,Wallet,Augustin,Delivered,4,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,183J183,fries:,22,Cash,Veranda,Delivered,2,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,1.00E+102,Veg Premium Burger:,22,Card,Stebuklai,Delivered,4,Will order again
+UFDF355524DM,11/10/2023,8.31.21,464B464,Quiche:,65,Wallet,Selfish,Delivered,5,Awesome experience
+XVTR474839TP,11/10/2023,8.31.21,355K355,Banana shake:,57,Cash,Demoloftas,Delivered,2,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,635C635,salad:,96,Cash,Brussels Mussels ,Delivered,3,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,111H111,Fried scallops with asparagus:,34,Cash,Saint German,Delivered,2,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,753T753,shake:,71,Card,Le Travi,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,488W488,RAVIOLI:,28,Wallet,Gaspar's,Delivered,1,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,849W849,shake:,76,Online,Da Antonio,Delivered,5,Good service
+SAMV824387MW,11/10/2023,8.31.21,523N523,Scallops:,21,Wallet,Demoloftas,Delivered,4,Good service
+XVTR474839TP,11/10/2023,8.31.21,217Y217,SALMON SALAD:,42,Online,Stebuklai,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,501F501,Banana shake:,74,Cash,Brussels Mussels ,Delivered,1,High price
+FRBT691245BA,11/10/2023,8.31.21,673Y673,shake:,98,Cash,Veranda,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,538H538,shake:,56,Card,Le Travi,Delivered,1,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,481Q481,BURRATA DI BUFALA:,68,Card,Veranda,Delivered,4,Worth
+OXJY167254JK,11/10/2023,8.31.21,635P635,Regular:,82,Online,Augustin,Delivered,4,Awesome experience
+FRBT691245BA,11/10/2023,8.31.21,961Y961,salad:,40,Wallet,Demoloftas,Delivered,3,Stale food
+SBXX592702XP,11/10/2023,8.31.21,1.66E+168,Soup of the day:,28,Online,Stebuklai,Delivered,5,Will order again
+FRBT691245BA,11/10/2023,8.31.21,194P194,Banana shake:,95,Wallet,Demoloftas,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,184N184,Mango Cremeux:,77,Cash,Stebuklai,Delivered,2,High price
+UFDF355524DM,11/10/2023,8.31.21,628V628,Bread:,28,Wallet,Selfish,Delivered,3,Complicated procedure
+UFDF355524DM,11/10/2023,8.31.21,582O582,fries:,82,Cash,Le Travi,Delivered,5,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,955C955,RAVIOLI:,79,Cash,Gaspar's,Delivered,3,Food not good
+FRBT691245BA,11/10/2023,8.31.21,889S889,pickle:,39,Wallet,Telegrafas,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,660E660,Veg Premium Burger:,89,Card,Veranda,Delivered,3,High price
+XVTR474839TP,11/10/2023,8.31.21,819L819,Banana shake:,76,Cash,Veranda,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,729H729,Soup of the day:,31,Online,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,936X936,tartlet:,27,Wallet,Gaspar's,Delivered,2,Late delivery
+SBXX592702XP,11/10/2023,8.31.21,227G227,meatballs:,51,Online,Demoloftas,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,215J215,Mango Cremeux:,35,Card,Sushi Masters,Delivered,4,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,979X979,Noodles:,31,Online,Le Travi,Delivered,3,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,731C731,BURRATA DI BUFALA:,85,Wallet,Gaspar's,Delivered,5,Worth
+FSAM929386AQ,11/10/2023,8.31.21,777X777,Regular:,76,Wallet,Sushi Masters,Delivered,4,Worth
+UYXR411673XC,11/10/2023,8.31.21,294Q294,Waterzooi:,74,Wallet,Brussels Mussels ,Delivered,2,Difficult to order
+SAMV824387MW,11/10/2023,8.31.21,271Q271,tuna steak:,68,Cash,Gaspar's,Delivered,4,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,205C205,BURRATA DI BUFALA:,30,Cash,Veranda,Delivered,4,Easy to order
+UYXR411673XC,11/10/2023,8.31.21,425R425,meatballs:,38,Card,Demoloftas,Delivered,4,Good service
+SAMV824387MW,11/10/2023,8.31.21,551E551,Scallops:,36,Online,Selfish,Delivered,3,Food not good
+LRKI603654KL,11/10/2023,8.31.21,306A306,pickle:,73,Wallet,Selfish,Delivered,5,Good service
+SBXX592702XP,11/10/2023,8.31.21,689A689,Veg Premium Burger:,70,Online,Stebuklai,Delivered,1,Delivery boy didnt come at doorstep
+UYXR411673XC,11/10/2023,8.31.21,101S101,pickle:,85,Cash,Gaspar's,Delivered,2,Stale food
+SAMV824387MW,11/10/2023,8.31.21,526K526,Banana shake:,64,Cash,Sushi Masters,Delivered,3,Coupon applied
+OXJY167254JK,11/10/2023,8.31.21,161J161,Noodles:,91,Wallet,Saint German,Delivered,3,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,704P704,tartlet:,26,Wallet,Le Travi,Delivered,3,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,143P143,RAVIOLI:,48,Online,Da Antonio,Delivered,5,Worth
+LRKI603654KL,11/10/2023,8.31.21,947X947,shake:,93,Wallet,Selfish,Delivered,3,Difficult to order
+FSAM929386AQ,11/10/2023,8.31.21,938B938,Bread:,27,Card,Da Antonio,Delivered,4,Awesome experience
+XVTR474839TP,11/10/2023,8.31.21,902H902,Scallops:,56,Online,Telegrafas,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,142J142,Scallops:,31,Cash,Selfish,Delivered,5,Will order again
+LRKI603654KL,11/10/2023,8.31.21,742G742,Bread:,86,Card,Da Antonio,Delivered,1,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,103Y103,RAVIOLI:,94,Online,Augustin,Delivered,2,Late delivery
+FSAM929386AQ,11/10/2023,8.31.21,208U208,Yellowfin tuna tartare:,33,Wallet,Brussels Mussels ,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,819Q819,Regular:,86,Cash,Telegrafas,Delivered,4,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,107K107,fries:,50,Card,Sushi Masters,Delivered,4,Delicious food
+FSAM929386AQ,11/10/2023,8.31.21,671T671,BURRATA DI BUFALA:,82,Card,Gaspar's,Delivered,5,Good service
+QTSI285174SG,11/10/2023,8.31.21,195K195,Crispy Onion Rings:,40,Cash,Gaspar's,Delivered,1,High price
+QTSI285174SG,11/10/2023,8.31.21,952U952,pickle:,29,Online,Stebuklai,Delivered,3,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,833E833,Natural Tea:,33,Cash,Brussels Mussels ,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,139A139,Benedict:,69,Cash,Augustin,Delivered,1,High price
+SBXX592702XP,11/10/2023,8.31.21,256A256,Mango Cremeux:,92,Wallet,Da Antonio,Delivered,4,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,837W837,tartlet:,74,Card,Gaspar's,Delivered,1,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,200B200,Noodles:,36,Wallet,Sushi Masters,Delivered,4,Fast delivery
+UYXR411673XC,11/10/2023,9.31.21,448B448,HALIBUT CEVICHE:,93,Online,Demoloftas,Delivered,5,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,838O838,Fried scallops with asparagus:,46,Cash,Saint German,Delivered,1,Delivery boy didnt come at doorstep
+FSAM929386AQ,11/10/2023,8.31.21,313Q313,Fried scallops with asparagus:,45,Wallet,Saint German,Delivered,3,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,320H320,Noodles:,77,Cash,Stebuklai,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,194J194,Regular:,34,Wallet,Saint German,Delivered,4,Good service
+FSAM929386AQ,11/10/2023,8.31.21,811B811,tartlet:,95,Card,Veranda,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,897D897,SALMON SALAD:,52,Card,Augustin,Delivered,5,Good service
+UFDF355524DM,11/10/2023,8.31.21,970L970,Curd:,35,Card,Saint German,Delivered,1,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,312R312,Bouillabaisse:,47,Wallet,Saint German,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,744G744,Mango shake:,43,Online,Gaspar's,Delivered,2,Food not good
+FRBT691245BA,11/10/2023,8.31.21,246T246,tuna steak:,79,Cash,Le Travi,Delivered,1,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,859F859,Bread:,55,Card,Selfish,Delivered,2,Food not good
+SBXX592702XP,11/10/2023,8.31.21,980I980,Scallops:,28,Card,Le Travi,Delivered,4,Will order again
+LRKI603654KL,11/10/2023,8.31.21,598V598,Scallops:,65,Online,Da Antonio,Delivered,3,High price
+LRKI603654KL,11/10/2023,8.31.21,589B589,HALIBUT CEVICHE:,45,Cash,Telegrafas,Delivered,2,Food not good
+LRKI603654KL,11/10/2023,8.31.21,327N327,HALIBUT CEVICHE:,62,Cash,Le Travi,Delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,605Y605,Veg Premium Burger:,82,Cash,Brussels Mussels ,Delivered,3,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,758W758,Soup of the day:,79,Cash,Le Travi,Delivered,3,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,477F477,salad:,89,Wallet,Brussels Mussels ,Delivered,2,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,274T274,fries:,22,Cash,Veranda,Delivered,2,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,845P845,Quiche:,65,Wallet,Selfish,Delivered,5,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,869G869,Bread:,77,Wallet,Sushi Masters,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,488W488,BURRATA DI BUFALA:,87,Cash,Stebuklai,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,1.08E+110,BURRATA DI BUFALA:,56,Wallet,Veranda,Delivered,4,Fast delivery
+SBXX592702XP,11/10/2023,8.31.21,549E549,Mango shake:,32,Card,Augustin,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,673F673,BURRATA DI BUFALA:,95,Wallet,Da Antonio,Delivered,5,Good service
+LJBO9511000BL,11/10/2023,8.31.21,288T288,fries:,100,Card,Saint German,Delivered,1,Delivery boy didnt come at doorstep
+FSAM929386AQ,11/10/2023,8.31.21,378E378,meatballs:,64,Card,Sushi Masters,Delivered,3,High price
+UFDF355524DM,11/10/2023,8.31.21,540T540,HALIBUT CEVICHE:,40,Online,Stebuklai,Delivered,2,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,639I639,pickle:,92,Wallet,Le Travi,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,824X824,chocolate mousse,65,Wallet,Gaspar's,Delivered,1,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,522P522,Bread:,24,Card,Selfish,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,390X390,tuna steak:,31,Wallet,Telegrafas,Delivered,4,Fast delivery
+UFDF355524DM,11/10/2023,8.31.21,865S865,Mango Cremeux:,29,Wallet,Augustin,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,115Y115,HALIBUT CEVICHE:,51,Cash,Veranda,Delivered,3,Complicated procedure
+FRBT691245BA,11/10/2023,8.31.21,176S176,RAVIOLI:,51,Card,Le Travi,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,710R710,Crispy Onion Rings:,97,Online,Sushi Masters,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,816A816,Mango Cremeux:,40,Card,Stebuklai,Delivered,1,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,999L999,Crispy Onion Rings:,20,Cash,Da Antonio,Delivered,3,High price
+XVTR474839TP,11/10/2023,8.31.21,110L110,BURRATA DI BUFALA:,90,Cash,Sushi Masters,Delivered,2,Stale food
+UFDF355524DM,11/10/2023,8.31.21,2.83E+285,lamb:,51,Online,Gaspar's,Delivered,5,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,629Y629,fries:,38,Wallet,Veranda,Delivered,1,High price
+XVTR474839TP,11/10/2023,8.31.21,256D256,Soup of the day:,38,Wallet,Augustin,Delivered,3,Stale food
+SAMV824387MW,11/10/2023,8.31.21,424B424,shake:,56,Online,Gaspar's,Delivered,5,Worth
+UFDF355524DM,11/10/2023,8.31.21,212L212,meatballs:,35,Cash,Selfish,Delivered,1,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,757O757,Crispy Onion Rings:,96,Online,Telegrafas,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,143P143,Fried Rice:,66,Online,Augustin,Delivered,4,Awesome experience
+UYXR411673XC,11/10/2023,8.31.21,471J471,Regular:,49,Wallet,Saint German,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,834M834,Banana shake:,72,Online,Gaspar's,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,497V497,BURRATA DI BUFALA:,50,Cash,Le Travi,Delivered,4,Worth
+UFDF355524DM,11/10/2023,8.31.21,476Z476,Benedict:,69,Cash,Augustin,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,399D399,Waterzooi:,41,Wallet,Brussels Mussels ,Delivered,4,Fast delivery
+LRKI603654KL,11/10/2023,8.31.21,589I589,pickle:,30,Cash,Stebuklai,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,713R713,Fried Rice:,44,Card,Da Antonio,Delivered,1,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,475V475,SALMON SALAD:,61,Wallet,Gaspar's,Delivered,4,Cheap and best
+FRBT691245BA,11/10/2023,8.31.21,932U932,Brussels Mussels:,44,Cash,Brussels Mussels ,Delivered,5,Will order again
+LJBO9511000BL,11/10/2023,8.31.21,896C896,Crispy Onion Rings:,23,Cash,Veranda,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,493N493,chocolate mousse,37,Card,Telegrafas,Delivered,3,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,321F321,shake:,24,Cash,Sushi Masters,Delivered,5,Cheap and best
+FSAM929386AQ,11/10/2023,8.31.21,258T258,Brussels Mussels:,54,Card,Brussels Mussels ,Delivered,2,Food not good
+LJBO9511000BL,11/10/2023,8.31.21,831G831,Soup of the day:,36,Wallet,Saint German,Delivered,5,Fast delivery
+XVTR474839TP,11/10/2023,8.31.21,981A981,Mango shake:,58,Online,Selfish,Delivered,3,High price
+UFDF355524DM,11/10/2023,8.31.21,403X403,SALMON SALAD:,89,Wallet,Da Antonio,Delivered,1,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,963O963,BURRATA DI BUFALA:,77,Online,Stebuklai,Delivered,1,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,308A308,Soup of the day:,60,Wallet,Demoloftas,Delivered,3,High price
+JXJY167254JK,11/10/2023,8.31.21,954S954,Pizza:Crispy Onion Rings:Bread:,89,Wallet,Brussels Mussels ,Delivered,5,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,424Z424,pickle:,49,Wallet,Demoloftas,Delivered,3,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,467S467,Curd:,23,Wallet,Da Antonio,Delivered,5,Worth
+SAMV824387MW,11/10/2023,8.31.21,794P794,Mango shake:,68,Wallet,Telegrafas,Delivered,2,High price
+UYXR411673XC,11/10/2023,8.31.21,448B448,HALIBUT CEVICHE:,93,Online,Demoloftas,Delivered,5,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,838O838,tuna steak:,46,Cash,Saint German,Delivered,1,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,605Y605,Veg Premium Burger:,82,Cash,Brussels Mussels ,Delivered,3,Difficult to order
+JXJY167254JK,11/10/2023,8.31.21,954Sg54,Crispy Onion Rings:Scallops:Benedict,67,Wallet,Le Travi,Delivered,4,Will order again
+LRKI603654KL,11/10/2023,8.31.21,758W758,Soup of the day:,79,Cash,Le Travi,Delivered,3,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,477F477,salad:,89,Wallet,Brussels Mussels ,Delivered,2,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,274T274,fries:,22,Cash,Veranda,Delivered,2,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,845P845,Quiche:,65,Wallet,Selfish,Delivered,5,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,869G869,Bread:,77,Wallet,Sushi Masters,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,488W488,BURRATA DI BUFALA:,87,Cash,Stebuklai,Delivered,2,Difficult to order
+JXJY167254JK,11/10/2023,8.31.21,954S954,Pizza:Crispy Onion Rings:Bread:,89,Wallet,Brussels Mussels ,Delivered,5,Awesome experience
+UYXR411673XC,11/10/2023,8.31.21,1.08E+110,BURRATA DI BUFALA:,56,Wallet,Veranda,Delivered,4,Fast delivery
+SBXX592702XP,11/10/2023,8.31.21,549E549,Mango shake:,32,Card,Augustin,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,673F673,BURRATA DI BUFALA:,95,Wallet,Da Antonio,Delivered,5,Good service
+LJBO9511000BL,11/10/2023,8.31.21,288T288,fries:,100,Card,Saint German,Delivered,1,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,540T540,HALIBUT CEVICHE:,40,Online,Stebuklai,Delivered,2,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,639I639,pickle:,92,Wallet,Le Travi,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,824X824,chocolate mousse,65,Wallet,Gaspar's,Delivered,1,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,522P522,Bread:,24,Card,Selfish,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,390X390,tuna steak:,31,Wallet,Telegrafas,Delivered,4,Fast delivery
+UFDF355524DM,11/10/2023,8.31.21,865S865,Mango Cremeux:,29,Wallet,Augustin,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,115Y115,HALIBUT CEVICHE:,51,Cash,Veranda,Delivered,3,Complicated procedure
+FRBT691245BA,11/10/2023,8.31.21,176S176,RAVIOLI:,51,Card,Le Travi,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,710R710,Crispy Onion Rings:,97,Online,Sushi Masters,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,816A816,Mango Cremeux:,40,Card,Stebuklai,Delivered,1,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,999L999,Crispy Onion Rings:,20,Cash,Da Antonio,Delivered,3,High price
+XVTR474839TP,11/10/2023,8.31.21,110L110,BURRATA DI BUFALA:,90,Cash,Sushi Masters,Delivered,2,Stale food
+UFDF355524DM,11/10/2023,8.31.21,2.83E+285,lamb:,51,Online,Gaspar's,Delivered,5,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,629Y629,fries:,38,Wallet,Veranda,Delivered,1,High price
+XVTR474839TP,11/10/2023,8.31.21,256D256,Soup of the day:,38,Wallet,Augustin,Delivered,3,Stale food
+SAMV824387MW,11/10/2023,8.31.21,424B424,shake:,56,Online,Gaspar's,Delivered,5,Worth
+UFDF355524DM,11/10/2023,8.31.21,212L212,meatballs:,35,Cash,Selfish,Delivered,1,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,757O757,Crispy Onion Rings:,96,Online,Telegrafas,Delivered,1,High price
+OXJY167254JK,11/10/2023,8.31.21,315P315,Scallops:,49,Online,Sushi Masters,Delivered,2,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,285S285,shake:,24,Card,Veranda,Delivered,4,Delicious food
+UFDF355524DM,11/10/2023,8.31.21,504F504,Curd:,23,Cash,Sushi Masters,Delivered,1,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,858S858,Scallops:,73,Online,Telegrafas,Delivered,1,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,286U286,Scallops:,82,Wallet,Telegrafas,Delivered,1,High price
+LRKI603654KL,11/10/2023,8.31.21,264H264,Mango Cremeux:,84,Wallet,Selfish,Delivered,1,Stale food
+OXJY167254JK,11/10/2023,8.31.21,364H364,salad:,83,Card,Stebuklai,Delivered,1,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,320Q320,pickle:,75,Online,Sushi Masters,Delivered,4,Will order again
+SAMV824387MW,11/10/2023,8.31.21,893U893,lamb:,45,Wallet,Augustin,Delivered,1,High price
+UFDF355524DM,11/10/2023,8.31.21,350E350,HALIBUT CEVICHE:,36,Card,Saint German,Delivered,2,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,166W166,Fried Rice:,98,Cash,Telegrafas,Delivered,2,Complicated procedure
+SBXX592702XP,11/10/2023,8.31.21,975Q975,Pizza:,57,Card,Gaspar's,Delivered,1,Complicated procedure
+SBXX592702XP,11/10/2023,8.31.21,539D539,Waterzooi:,86,Cash,Brussels Mussels ,Delivered,3,Food not good
+XVTR474839TP,11/10/2023,8.31.21,536D536,meatballs:,60,Cash,Demoloftas,Delivered,3,Food not good
+FRBT691245BA,11/10/2023,8.31.21,219S219,salad:,80,Cash,Le Travi,Delivered,4,Cheap and best
+UYXR411673XC,11/10/2023,8.31.21,306Y306,Quiche:,92,Card,Demoloftas,Delivered,3,High price
+SAMV824387MW,11/10/2023,8.31.21,607D607,Fried Rice:,93,Online,Demoloftas,Delivered,2,Stale food
+FRBT691245BA,11/10/2023,8.31.21,120C120,Benedict:,42,Online,Augustin,Delivered,3,High price
+LJBO9511000BL,11/10/2023,8.31.21,678S678,Veg Premium Burger:,77,Online,Telegrafas,Delivered,5,Awesome experience
+QTSI285174SG,11/10/2023,8.31.21,244M244,BURRATA DI BUFALA:,44,Wallet,Le Travi,Delivered,2,Difficult to order
+UFDF355524DM,11/10/2023,8.31.21,763Q763,Prawn salad:,25,Online,Brussels Mussels ,Delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,169H169,Curd:,41,Card,Sushi Masters,Delivered,1,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,829I829,tuna steak:,71,Online,Selfish,Delivered,3,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,624T624,BURRATA DI BUFALA:,55,Online,Da Antonio,Delivered,2,Complicated procedure
+OXJY167254JK,11/10/2023,8.31.21,556M556,Noodles:,99,Card,Telegrafas,Delivered,1,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,908S908,Scallops:,79,Cash,Le Travi,Delivered,3,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,136C136,chocolate mousse,43,Card,Veranda,Delivered,4,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,575J575,chocolate mousse,21,Card,Stebuklai,Delivered,4,Fast delivery
+SBXX592702XP,11/10/2023,8.31.21,584A584,Curd:,51,Wallet,Demoloftas,Delivered,3,High price
+XVTR474839TP,11/10/2023,8.31.21,276D276,shake:,47,Wallet,Da Antonio,Delivered,5,Fast delivery
+UYXR411673XC,11/10/2023,8.31.21,248W248,Quiche:,51,Card,Le Travi,Delivered,3,Difficult to order
+UFDF355524DM,11/10/2023,8.31.21,904M904,Mango Cremeux:,94,Online,Selfish,Delivered,2,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,327U327,Crispy Onion Rings:,66,Online,Sushi Masters,Delivered,1,High price
+XVTR474839TP,11/10/2023,8.31.21,411E411,SALMON SALAD:,82,Wallet,Sushi Masters,Delivered,2,High price
+UFDF355524DM,11/10/2023,8.31.21,765Q765,Pizza:,69,Wallet,Demoloftas,Delivered,2,Stale food
+FRBT691245BA,11/10/2023,8.31.21,734P734,Prawn salad,64,Card,Brussels Mussels ,Delivered,3,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,399D399,Prawn salad:,41,Wallet,Brussels Mussels ,Delivered,4,Fast delivery
+SBXX592702XP,11/10/2023,8.31.21,973O973,salad:,58,Cash,Brussels Mussels ,Delivered,2,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,891U891,chocolate mousse,53,Wallet,Gaspar's,Delivered,2,Complicated procedure
+FRBT691245BA,11/10/2023,8.31.21,279R279,pickle:,22,Online,Selfish,Delivered,4,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,934X934,Fried Rice:,68,Card,Stebuklai,Delivered,3,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,573R573,Banana shake:,77,Card,Augustin,Delivered,5,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,604F604,Grilled octopus:,91,Cash,Brussels Mussels ,Delivered,4,Delicious food
+UFDF355524DM,11/10/2023,8.31.21,814Y814,tuna steak:,46,Card,Augustin,Delivered,5,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,175M175,pickle:,52,Wallet,Telegrafas,Delivered,3,Food not good
+LJBO9511000BL,11/10/2023,8.31.21,625Z625,Benedict:,93,Online,Stebuklai,Delivered,5,Will order again
+UFDF355524DM,11/10/2023,8.31.21,899A899,Veg Premium Burger:,31,Online,Gaspar's,Delivered,3,Stale food
+OXJY167254JK,11/10/2023,8.31.21,719J719,Quiche:,82,Cash,Telegrafas,Delivered,5,Worth
+OXJY167254JK,11/10/2023,8.31.21,602V602,Regular:,64,Cash,Demoloftas,Delivered,4,Delicious food
+QTSI285174SG,11/10/2023,8.31.21,828Y828,lamb:,32,Wallet,Stebuklai,Delivered,4,Good service
+QTSI285174SG,11/10/2023,8.31.21,576H576,RAVIOLI:,38,Card,Augustin,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,579S579,pickle:,46,Wallet,Stebuklai,Delivered,2,Stale food
+UFDF355524DM,11/10/2023,8.31.21,590K590,Soup of the day:,67,Cash,Saint German,Delivered,1,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,562J562,Mango shake:,95,Online,Augustin,Delivered,5,Fast delivery
+XVTR474839TP,11/10/2023,8.31.21,862F862,Banana shake:,32,Card,Le Travi,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,329N329,Crispy Onion Rings:,23,Cash,Veranda,Delivered,3,Stale food
+OXJY167254JK,11/10/2023,8.31.21,764T764,Fried Rice:,32,Card,Brussels Mussels ,Delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,412W412,Mango shake:,60,Wallet,Telegrafas,Delivered,2,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,298O298,lamb:,82,Wallet,Le Travi,Delivered,3,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,430S430,Veg Premium Burger:,35,Wallet,Augustin,Delivered,4,Nice
+QTSI285174SG,11/10/2023,8.31.21,997J997,tartlet:,88,Cash,Gaspar's,Delivered,5,Easy to order
+LJBO9511000BL,11/10/2023,8.31.21,666G666,SALMON SALAD:,83,Cash,Augustin,Delivered,5,Awesome experience
+LJBO9511000BL,11/10/2023,8.31.21,382J382,Quiche:,20,Online,Gaspar's,Delivered,5,Good service
+XVTR474839TP,11/10/2023,8.31.21,468M468,Banana shake:,80,Wallet,Demoloftas,Delivered,5,Delicious food
+XVTR474839TP,11/10/2023,8.31.21,100R100,tartlet:,92,Card,Veranda,Delivered,5,Worth
+QTSI285174SG,11/10/2023,8.31.21,481H481,SALMON SALAD:,34,Cash,Stebuklai,Delivered,2,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,848J848,Grilled octopus:,50,Online,Brussels Mussels ,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,703K703,tuna steak:,36,Card,Veranda,Delivered,2,Stale food
+UYXR411673XC,11/10/2023,8.31.21,445Y445,Pizza:,78,Cash,Telegrafas,Delivered,2,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,175H175,Noodles:,23,Card,Selfish,Delivered,3,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,725Q725,Mango Cremeux:,24,Online,Da Antonio,Delivered,2,Coupon applied
+LRKI603654KL,11/10/2023,8.31.21,310K310,BURRATA DI BUFALA:,95,Online,Demoloftas,Delivered,1,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,329T329,Crispy Onion Rings:,22,Online,Sushi Masters,Delivered,4,Delicious food
+UFDF355524DM,11/10/2023,8.31.21,481L481,meatballs:,97,Cash,Da Antonio,Delivered,2,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,308A308,RAVIOLI:,42,Card,Le Travi,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,596E596,HALIBUT CEVICHE:,50,Wallet,Demoloftas,Delivered,3,Delivery boy didnt come at doorstep
+FSAM929386AQ,11/10/2023,8.31.21,951Q951,Banana shake:,93,Online,Augustin,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,840X840,Fried Rice:,43,Cash,Sushi Masters,Delivered,2,Delivery boy didnt come at doorstep
+QTSI285174SG,11/10/2023,8.31.21,378C378,Regular:,97,Wallet,Sushi Masters,Delivered,4,Will order again
+SBXX592702XP,11/10/2023,8.31.21,392T392,Banana shake:,86,Online,Selfish,Delivered,5,Fast delivery
+UYXR411673XC,11/10/2023,8.31.21,558Q558,Mango shake:,27,Card,Le Travi,Delivered,5,Cheap and best
+UYXR411673XC,11/10/2023,8.31.21,311N311,lamb:,71,Cash,Augustin,Delivered,1,Food not good
+UYXR411673XC,11/10/2023,8.31.21,511Q511,Mango Cremeux:,59,Online,Da Antonio,Delivered,1,Food not good
+UYXR411673XC,11/10/2023,8.31.21,302P302,meatballs:,79,Wallet,Veranda,Delivered,5,Will order again
+LJBO9511000BL,11/10/2023,8.31.21,258M258,Soup of the day:,36,Online,Telegrafas,Delivered,1,Stale food
+LRKI603654KL,11/10/2023,8.31.21,512U512,SALMON SALAD:,27,Card,Saint German,Delivered,1,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,932N932,salad:,82,Wallet,Saint German,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,634O634,Fried Rice:,45,Wallet,Demoloftas,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,208X208,Soup of the day:,37,Card,Veranda,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,795Q795,shake:,77,Wallet,Sushi Masters,Delivered,1,High price
+SAMV824387MW,11/10/2023,8.31.21,916L916,chocolate mousse,60,Wallet,Selfish,Delivered,2,Stale food
+OXJY167254JK,11/10/2023,8.31.21,979V979,Curd:,95,Card,Gaspar's,Delivered,2,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,135F135,Regular:,83,Cash,Selfish,Delivered,1,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,959O959,HALIBUT CEVICHE:,88,Wallet,Saint German,Delivered,3,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,672E672,chocolate mousse,22,Card,Saint German,Delivered,2,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,675F675,meatballs:,70,Wallet,Veranda,Delivered,3,Stale food
+LRKI603654KL,11/10/2023,8.31.21,463X463,Veg Premium Burger:,77,Card,Demoloftas,Delivered,5,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,228R228,Pizza:,68,Card,Veranda,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,327G327,Curd:,40,Cash,Selfish,Delivered,1,Complicated procedure
+FRBT691245BA,11/10/2023,8.31.21,168V168,RAVIOLI:,53,Wallet,Veranda,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,596G596,lamb:,72,Card,Telegrafas,Delivered,4,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,758W758,Banana shake:,58,Wallet,Le Travi,Delivered,1,Stale food
+SBXX592702XP,11/10/2023,8.31.21,239O239,SALMON SALAD:,98,Cash,Augustin,Delivered,2,Stale food
+OXJY167254JK,11/10/2023,8.31.21,345Z345,Fried Rice:,36,Cash,Saint German,Delivered,4,Delicious food
+FRBT691245BA,11/10/2023,8.31.21,492M492,BURRATA DI BUFALA:,56,Card,Selfish,Delivered,2,Stale food
+OXJY167254JK,11/10/2023,8.31.21,179Y179,meatballs:,99,Card,Demoloftas,Delivered,4,Easy to order
+QTSI285174SG,11/10/2023,8.31.21,413L413,Fried burrata:,33,Online,Brussels Mussels ,Delivered,2,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,910U910,Benedict:,57,Cash,Demoloftas,Delivered,5,Nice
+SBXX592702XP,11/10/2023,8.31.21,347B347,lamb:,38,Card,Telegrafas,Delivered,3,Food not good
+UFDF355524DM,11/10/2023,8.31.21,723H723,Soup of the day:,95,Online,Sushi Masters,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,375D375,Soup of the day:,36,Cash,Le Travi,Delivered,2,Coupon applied
+LJBO9511000BL,11/10/2023,8.31.21,689M689,RAVIOLI:,81,Card,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+QTSI285174SG,11/10/2023,8.31.21,902X902,Soup of the day:,38,Card,Selfish,Delivered,4,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,963R963,Banana shake:,73,Cash,Stebuklai,Delivered,3,Stale food
+OXJY167254JK,11/10/2023,8.31.21,2.21E+223,Quiche:,69,Card,Gaspar's,Delivered,4,Easy to order
+SBXX592702XP,11/10/2023,8.31.21,559Z559,SALMON SALAD:,32,Online,Stebuklai,Delivered,5,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,105Z105,BURRATA DI BUFALA:,64,Wallet,Stebuklai,Delivered,4,Easy to order
+XVTR474839TP,11/10/2023,8.31.21,761U761,Benedict:,52,Cash,Selfish,Delivered,5,Cheap and best
+SBXX592702XP,11/10/2023,8.31.21,932D932,Regular:,55,Cash,Gaspar's,Delivered,4,Nice
+XVTR474839TP,11/10/2023,8.31.21,257S257,Crispy Onion Rings:,44,Wallet,Sushi Masters,Delivered,3,Food not good
+UFDF355524DM,11/10/2023,8.31.21,728T728,fries:,49,Wallet,Le Travi,Delivered,5,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,869G869,Bread:,77,Wallet,Sushi Masters,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,316O316,lamb:,78,Cash,Gaspar's,Delivered,4,Delicious food
+LJBO9511000BL,11/10/2023,8.31.21,330M330,Benedict:,71,Online,Le Travi,Delivered,2,Food not good
+XVTR474839TP,11/10/2023,8.31.21,381I381,Mango shake:,82,Card,Saint German,Delivered,5,Nice
+UFDF355524DM,11/10/2023,8.31.21,188W188,pickle:,58,Online,Telegrafas,Delivered,2,Food not good
+FSAM929386AQ,11/10/2023,8.31.21,408G408,Quiche:,75,Online,Demoloftas,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,605B605,SALMON SALAD:,84,Wallet,Veranda,Delivered,3,Coupon applied
+OXJY167254JK,11/10/2023,8.31.21,198N198,lamb:,30,Wallet,Le Travi,Delivered,5,Awesome experience
+SBXX592702XP,11/10/2023,8.31.21,549E549,Fried Rice:,61,Online,Demoloftas,Delivered,2,Food not good
+UFDF355524DM,11/10/2023,8.31.21,171L171,Soup of the day:,31,Wallet,Augustin,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,128T128,Veg Premium Burger:,81,Cash,Le Travi,Delivered,5,Easy to order
+LJBO9511000BL,11/10/2023,8.31.21,494G494,lamb:,39,Card,Le Travi,Delivered,4,Awesome experience
+FRBT691245BA,11/10/2023,8.31.21,234L234,pickle:,51,Online,Le Travi,Delivered,5,Delicious food
+QTSI285174SG,11/10/2023,8.31.21,378G378,lamb:,21,Card,Augustin,Delivered,3,Delivery boy didnt come at doorstep
+UYXR411673XC,11/10/2023,8.31.21,182Y182,Crispy Onion Rings:,84,Wallet,Stebuklai,Delivered,2,Delivery boy didnt come at doorstep
+FRBT691245BA,11/10/2023,8.31.21,928E928,chocolate mousse,76,Online,Demoloftas,Delivered,4,Nice
+XVTR474839TP,11/10/2023,8.31.21,427V427,Veg Premium Burger:,37,Online,Gaspar's,Delivered,3,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,598X598,lamb:,80,Cash,Sushi Masters,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,200S200,Quiche:,44,Online,Veranda,Delivered,1,Difficult to order
+QTSI285174SG,11/10/2023,8.31.21,824X824,chocolate mousse,65,Wallet,Gaspar's,Delivered,1,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,519B519,pickle:,76,Online,Augustin,Delivered,5,Will order again
+FRBT691245BA,11/10/2023,8.31.21,932S932,Bread:,24,Card,Selfish,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,390X390,Noodles:,100,Card,Augustin,Delivered,3,Stale food
+LRKI603654KL,11/10/2023,8.31.21,617D617,RAVIOLI:,53,Card,Saint German,Delivered,4,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,237Z237,Banana shake:,54,Card,Stebuklai,Delivered,2,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,865S865,Mango Cremeux:,29,Wallet,Augustin,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,115Y115,HALIBUT CEVICHE:,51,Cash,Veranda,Delivered,3,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,332C332,Curd:,38,Card,Stebuklai,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,176S176,RAVIOLI:,51,Card,Le Travi,Delivered,2,Stale food
+OXJY167254JK,11/10/2023,8.31.21,552I552,Soup of the day:,29,Online,Augustin,Delivered,2,Food not good
+OXJY167254JK,11/10/2023,8.31.21,877M877,meatballs:,30,Wallet,Le Travi,Delivered,4,Easy to order
+QTSI285174SG,11/10/2023,8.31.21,710R710,Crispy Onion Rings:,97,Online,Sushi Masters,Delivered,5,Awesome experience
+SAMV824387MW,11/10/2023,8.31.21,593K593,Benedict:,30,Wallet,Stebuklai,Delivered,5,Awesome experience
+SBXX592702XP,11/10/2023,8.31.21,535L535,Carpaccio:,58,Wallet,Da Antonio,Delivered,2,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,816A816,Noodles:,43,Online,Saint German,Delivered,1,Food not good
+FRBT691245BA,11/10/2023,8.31.21,913D913,tartlet:,57,Card,Saint German,Delivered,3,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,999L999,Crispy Onion Rings:,20,Cash,Da Antonio,Delivered,3,High price
+LRKI603654KL,11/10/2023,8.31.21,281D281,SALMON SALAD:,52,Wallet,Gaspar's,Delivered,4,Delicious food
+QTSI285174SG,11/10/2023,8.31.21,963V963,pickle:,87,Cash,Sushi Masters,Delivered,5,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,895B895,Quiche:,20,Cash,Telegrafas,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,367P367,HALIBUT CEVICHE:,64,Wallet,Stebuklai,Delivered,4,Delicious food
+SAMV824387MW,11/10/2023,8.31.21,551N551,Crispy Onion Rings:,96,Wallet,Sushi Masters,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,616Z616,chocolate mousse,40,Card,Augustin,Delivered,2,High price
+UFDF355524DM,11/10/2023,8.31.21,196G196,salad:,89,Card,Sushi Masters,Delivered,2,Difficult to order
+QTSI285174SG,11/10/2023,8.31.21,640X640,fries:,79,Online,Augustin,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,181R181,tuna steak:,39,Online,Veranda,Delivered,1,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,936S936,Noodles:,47,Card,Augustin,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,532A532,Curd:,66,Online,Selfish,Delivered,3,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,264Z264,meatballs:,59,Wallet,Da Antonio,Delivered,5,Fast delivery
+UYXR411673XC,11/10/2023,8.31.21,854Q854,Veg Premium Burger:,62,Card,Gaspar's,Delivered,4,Good service
+SAMV824387MW,11/10/2023,8.31.21,757C757,Regular:,67,Cash,Demoloftas,Delivered,3,Stale food
+LRKI603654KL,11/10/2023,8.31.21,264U264,shake:,40,Cash,Veranda,Delivered,1,Coupon applied
+LRKI603654KL,11/10/2023,8.31.21,167A167,tartlet:,70,Online,Da Antonio,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,114L114,RAVIOLI:,85,Wallet,Le Travi,Delivered,1,Delivery boy didnt come at doorstep
+LRKI603654KL,11/10/2023,8.31.21,341I341,chocolate mousse,49,Card,Gaspar's,Delivered,5,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,773C773,lamb:,37,Online,Veranda,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,228N228,Fried Rice:,38,Online,Sushi Masters,Delivered,1,Delivery boy didnt come at doorstep
+UYXR411673XC,11/10/2023,8.31.21,412H412,lamb:,55,Online,Veranda,Delivered,2,Coupon applied
+SAMV824387MW,11/10/2023,8.31.21,597W597,Crispy Onion Rings:,91,Online,Demoloftas,Delivered,5,Easy to order
+LJBO9511000BL,11/10/2023,8.31.21,601F601,SALMON SALAD:,41,Wallet,Gaspar's,Delivered,4,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,140Z140,Fried burrata:,39,Cash,Brussels Mussels ,Delivered,1,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,825W825,HALIBUT CEVICHE:,45,Online,Gaspar's,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,234F234,Crispy Onion Rings:,66,Card,Le Travi,Delivered,1,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,930J930,Curd:,75,Card,Brussels Mussels ,Delivered,5,Good service
+QTSI285174SG,11/10/2023,8.31.21,101P101,Bread:,26,Online,Veranda,Delivered,2,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,208I208,Fried Rice:,72,Card,Veranda,Delivered,2,High price
+LJBO9511000BL,11/10/2023,8.31.21,907Q907,BURRATA DI BUFALA:,52,Online,Stebuklai,Delivered,2,High price
+XVTR474839TP,11/10/2023,8.31.21,890T890,pickle:,95,Online,Telegrafas,Delivered,4,Awesome experience
+LJBO9511000BL,11/10/2023,8.31.21,811Q811,Veg Premium Burger:,65,Cash,Brussels Mussels ,Delivered,3,Complicated procedure
+OXJY167254JK,11/10/2023,8.31.21,168N168,Pizza:,88,Cash,Augustin,Delivered,2,Food not good
+XVTR474839TP,11/10/2023,8.31.21,926H926,Bread:,89,Wallet,Saint German,Delivered,3,Food not good
+OXJY167254JK,11/10/2023,8.31.21,575G575,Quiche:,67,Cash,Brussels Mussels ,Delivered,3,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,329X329,salad:,28,Online,Le Travi,Delivered,5,Will order again
+UFDF355524DM,11/10/2023,8.31.21,654N654,salad:,38,Card,Gaspar's,Delivered,1,Stale food
+LRKI603654KL,11/10/2023,8.31.21,213S213,Quiche:,48,Online,Sushi Masters,Delivered,2,Food not good
+LJBO9511000BL,11/10/2023,8.31.21,342T342,Regular:,82,Online,Stebuklai,Delivered,1,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,821D821,Curd:,90,Card,Brussels Mussels ,Delivered,2,Food not good
+UFDF355524DM,11/10/2023,8.31.21,306H306,BURRATA DI BUFALA:,98,Wallet,Sushi Masters,Delivered,2,Coupon applied
+UYXR411673XC,11/10/2023,8.31.21,676G676,Crispy Onion Rings:,92,Online,Stebuklai,Delivered,2,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,320H320,Noodles:,77,Cash,Stebuklai,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,194J194,Regular:,34,Wallet,Saint German,Delivered,4,Good service
+FSAM929386AQ,11/10/2023,8.31.21,811B811,tartlet:,95,Card,Veranda,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,897D897,SALMON SALAD:,52,Card,Augustin,Delivered,5,Good service
+UFDF355524DM,11/10/2023,8.31.21,970L970,Curd:,35,Card,Saint German,Delivered,1,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,312R312,RAVIOLI:,47,Wallet,Saint German,Delivered,2,Stale food
+QTSI285174SG,11/10/2023,8.31.21,744G744,Mango shake:,43,Online,Gaspar's,Delivered,2,Food not good
+FRBT691245BA,11/10/2023,8.31.21,246T246,tuna steak:,79,Cash,Le Travi,Delivered,1,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,859F859,Bread:,55,Card,Selfish,Delivered,2,Food not good
+SBXX592702XP,11/10/2023,8.31.21,980I980,Scallops:,28,Card,Le Travi,Delivered,4,Will order again
+LRKI603654KL,11/10/2023,8.31.21,598V598,Scallops:,65,Online,Da Antonio,Delivered,3,High price
+LRKI603654KL,11/10/2023,8.31.21,589B589,HALIBUT CEVICHE:,45,Cash,Telegrafas,Delivered,2,Food not good
+LRKI603654KL,11/10/2023,8.31.21,327N327,HALIBUT CEVICHE:,62,Cash,Le Travi,Delivered,2,High price
+OXJY167254JK,11/10/2023,8.31.21,315P315,Scallops:,49,Online,Sushi Masters,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,18.31.21,654S654,Regular:Mango shake:Bread,97,Wallet,Sushi Masters,Delivered,4,Will order again
+QTSI285174SG,11/10/2023,8.34.21,556T556,Benedict:pickle,34,Card,Da Antonio,Delivered,2,Food not good
+FRBT691245BA,11/10/2023,8.21.21,616X616,Mango shake:Noodles,68,Wallet,Telegrafas,Delivered,2,High price
+LRKI603654KL,11/10/2023,5.31.21,562T562,Bread:,20,Card,Le Travi,Delivered,4,Cheap and best
+LRKI603654KL,11/10/2023,9.31.21,611D611,HALIBUT CEVICHE:,94,Cash,Demoloftas,Delivered,1,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,441M441,salad:,82,Wallet,Saint German,Delivered,2,High price
+SAMV824387MW,11/10/2023,8.31.28,352G352,pickle:,62,Online,Brussels Mussels ,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,662X662,meatballs:,49,Online,Selfish,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,249A249,Curd:,57,Online,Brussels Mussels ,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,284O284,Pizza:,44,Card,Le Travi,Delivered,5,Easy to order
+UFDF355524DM,11/10/2023,8.31.21,998P998,Veg Premium Burger:,48,Wallet,Le Travi,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,586V586,Curd:,95,Card,Gaspar's,Delivered,2,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,667M667,Curd:,96,Card,Demoloftas,Delivered,1,High price
+UFDF355524DM,11/10/2023,8.31.21,152D152,Noodles:,22,Cash,Saint German,Delivered,3,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,409H409,Benedict:,71,Online,Le Travi,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,158J158,RAVIOLI:,24,Card,Veranda,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,187L187,Veg Premium Burger:,28,Cash,Le Travi,Delivered,5,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,878Q878,RAVIOLI:,64,Wallet,Gaspar's,Delivered,5,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,699V699,Bread:,89,Card,Demoloftas,Delivered,4,Easy to order
+UYXR411673XC,11/10/2023,8.31.21,102M102,Banana shake:,42,Card,Brussels Mussels ,Delivered,2,High price
+FSAM929386AQ,11/10/2023,8.31.21,127K127,Mango Cremeux:,48,Wallet,Selfish,Delivered,3,Stale food
+SBXX592702XP,11/10/2023,8.31.21,400S400,shake:,62,Card,Gaspar's,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,177A177,Soup of the day:,39,Online,Selfish,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,168V168,HALIBUT CEVICHE:,75,Online,Le Travi,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,374Z374,lamb:,72,Card,Telegrafas,Delivered,4,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,895Y895,pickle:,65,Card,Saint German,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,202U202,Bread:,62,Wallet,Saint German,Delivered,2,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,925Y925,fries:,86,Cash,Da Antonio,Delivered,5,Cheap and best
+SBXX592702XP,11/10/2023,8.31.21,190Y190,SALMON SALAD:,81,Cash,Selfish,Delivered,1,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,732H732,pickle:,71,Wallet,Brussels Mussels ,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,994T994,BURRATA DI BUFALA:,83,Wallet,Brussels Mussels ,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,722N722,Banana shake:,41,Wallet,Stebuklai,Delivered,2,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,885W885,RAVIOLI:,76,Online,Le Travi,Delivered,5,Easy to order
+UFDF355524DM,11/10/2023,8.31.21,217O217,Noodles:,86,Card,Telegrafas,Delivered,2,Food not good
+UYXR411673XC,11/10/2023,8.31.21,533X533,RAVIOLI:,81,Card,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+QTSI285174SG,11/10/2023,8.31.21,902X902,shake:,33,Card,Da Antonio,Delivered,1,Complicated procedure
+OXJY167254JK,11/10/2023,8.31.21,963R963,Fried Rice:,82,Online,Sushi Masters,Delivered,4,Easy to order
+OXJY167254JK,11/10/2023,8.31.21,2.21E+223,Scallops:,69,Cash,Da Antonio,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,701A701,SALMON SALAD:,32,Online,Stebuklai,Delivered,5,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,105Z105,tuna steak:,80,Card,Sushi Masters,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,557Z557,Regular:,55,Cash,Gaspar's,Delivered,4,Nice
+LRKI603654KL,11/10/2023,8.31.21,689S689,fries:,49,Wallet,Le Travi,Delivered,5,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,316O316,Soup of the day:,29,Cash,Selfish,Delivered,4,Fast delivery
+OXJY167254JK,11/10/2023,8.31.21,307X307,Scallops:,69,Wallet,Sushi Masters,Delivered,4,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,983A983,Fried burrata:,35,Wallet,Brussels Mussels ,Delivered,4,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,742Y742,Scallops:,21,Wallet,Demoloftas,Delivered,4,Good service
+XVTR474839TP,11/10/2023,8.31.21,381I381,SALMON SALAD:,42,Online,Stebuklai,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,501F501,SALMON SALAD:,43,Card,Veranda,Delivered,3,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,668P668,Banana shake:,96,Wallet,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,825D825,shake:,98,Cash,Veranda,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,847M847,Bread:,31,Wallet,Augustin,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,128T128,Quiche:,38,Wallet,Le Travi,Delivered,2,Late delivery
+FRBT691245BA,11/10/2023,8.31.21,234L234,Crispy Onion Rings:,45,Online,Saint German,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,421H421,chocolate mousse,23,Cash,Da Antonio,Delivered,1,High price
+OXJY167254JK,11/10/2023,8.31.21,519B519,chocolate mousse,94,Card,Gaspar's,Delivered,1,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,358J358,Crispy Onion Rings:,78,Online,Augustin,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,376E376,Banana shake:,54,Card,Stebuklai,Delivered,2,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,332C332,Pizza:,76,Card,Sushi Masters,Delivered,4,Delicious food
+FRBT691245BA,11/10/2023,8.31.21,584R584,Regular:,57,Card,Saint German,Delivered,5,Delicious food
+OXJY167254JK,11/10/2023,8.31.21,552I552,Benedict:,28,Cash,Augustin,Delivered,4,Delicious food
+SAMV824387MW,11/10/2023,8.31.21,919M919,meatballs:,30,Wallet,Le Travi,Delivered,4,Easy to order
+FRBT691245BA,11/10/2023,8.31.21,961Y961,Soup of the day:,28,Online,Stebuklai,Delivered,5,Will order again
+SAMV824387MW,11/10/2023,8.31.21,593K593,chocolate mousse,38,Online,Saint German,Delivered,5,Will order again
+OXJY167254JK,11/10/2023,8.31.21,752N752,Banana shake:,95,Wallet,Demoloftas,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,455W455,Alaskan Cod:,96,Online,Brussels Mussels ,Delivered,2,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,281D281,RAVIOLI:,79,Cash,Gaspar's,Delivered,3,Food not good
+XVTR474839TP,11/10/2023,8.31.21,819L819,Soup of the day:,31,Online,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,373I373,Quiche:,37,Card,Brussels Mussels ,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,564J564,salad:,63,Wallet,Demoloftas,Delivered,5,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,149F149,Bread:,31,Cash,Saint German,Delivered,4,Worth
+XVTR474839TP,11/10/2023,8.31.21,539I539,meatballs:,51,Online,Demoloftas,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,215J215,Alaskan Cod:,39,Cash,Brussels Mussels ,Delivered,1,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,363Z363,meatballs:,52,Cash,Telegrafas,Delivered,5,Worth
+UYXR411673XC,11/10/2023,8.31.21,726Z726,fries:,55,Wallet,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+LRKI603654KL,11/10/2023,8.31.21,741F741,Banana shake:,67,Online,Selfish,Delivered,3,Stale food
+LRKI603654KL,11/10/2023,8.31.21,264U264,meatballs:,52,Card,Saint German,Delivered,1,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,775V775,shake:,54,Cash,Selfish,Delivered,3,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,403H403,pickle:,55,Online,Saint German,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,517U517,pickle:,27,Online,Saint German,Delivered,2,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,715H715,tuna steak:,66,Wallet,Selfish,Delivered,5,Nice
+QTSI285174SG,11/10/2023,8.31.21,527W527,Scallops:,59,Wallet,Augustin,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,491A491,Fried Rice:,80,Online,Stebuklai,Delivered,5,Easy to order
+UYXR411673XC,11/10/2023,8.31.21,510N510,Curd:,75,Card,Brussels Mussels ,Delivered,5,Good service
+QTSI285174SG,11/10/2023,8.31.21,101P101,Veg Premium Burger:,70,Online,Stebuklai,Delivered,1,Delivery boy didnt come at doorstep
+LJBO9511000BL,11/10/2023,8.31.21,208I208,tartlet:,52,Card,Selfish,Delivered,5,Nice
+QTSI285174SG,11/10/2023,8.31.21,798W798,Crispy Onion Rings:,95,Cash,Saint German,Delivered,4,Awesome experience
+LJBO9511000BL,11/10/2023,8.31.21,811Q811,Quiche:,62,Online,Telegrafas,Delivered,4,Nice
+UFDF355524DM,11/10/2023,8.31.21,966E966,Soup of the day:,67,Card,Brussels Mussels ,Delivered,2,Complicated procedure
+SBXX592702XP,11/10/2023,8.31.21,457Y457,SALMON SALAD:,91,Cash,Stebuklai,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,919I919,RAVIOLI:,92,Cash,Telegrafas,Delivered,2,Food not good
+SBXX592702XP,11/10/2023,8.31.21,902G902,salad:,38,Card,Gaspar's,Delivered,1,Stale food
+LRKI603654KL,11/10/2023,8.31.21,213S213,Noodles:,60,Card,Veranda,Delivered,2,Late delivery
+QTSI285174SG,11/10/2023,8.31.21,393C393,Pizza:,70,Cash,Selfish,Delivered,4,Easy to order
+SBXX592702XP,11/10/2023,8.31.21,851P851,tuna steak:,48,Online,Demoloftas,Delivered,5,Fast delivery
+SAMV824387MW,11/10/2023,8.31.21,491V491,Noodles:,31,Online,Selfish,Delivered,3,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,360Z360,Pizza:,50,Online,Augustin,Delivered,1,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,625P625,meatballs:,96,Wallet,Gaspar's,Delivered,1,High price
+UYXR411673XC,11/10/2023,8.31.21,210B210,Vegan cauliflower steak,75,Online,Brussels Mussels ,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,644C644,Mango shake:,43,Online,Gaspar's,Delivered,2,Food not good
+FRBT691245BA,11/10/2023,8.31.21,246T246,Fried Rice:,93,Card,Selfish,Delivered,1,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,378A378,Regular:,86,Cash,Telegrafas,Delivered,4,Cheap and best
+UFDF355524DM,11/10/2023,8.31.21,107K107,Curd:,32,Online,Augustin,Delivered,2,Food not good
+LJBO9511000BL,11/10/2023,8.31.21,570T570,shake:,97,Online,Le Travi,Delivered,5,Good service
+UYXR411673XC,11/10/2023,8.31.21,847B847,Regular:,68,Cash,Telegrafas,Delivered,5,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,860Q860,Crispy Onion Rings:,49,Online,Selfish,Delivered,1,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,327N327,Mango Cremeux:,92,Wallet,Da Antonio,Delivered,4,Delicious food
+OXJY167254JK,11/10/2023,8.31.21,315P315,Vegan cauliflower steak:,67,Online,Brussels Mussels ,Delivered,5,Fast delivery
+UYXR411673XC,11/10/2023,8.31.21,499O499,Banana shake:,23,Cash,Sushi Masters,Delivered,1,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,858S858,Mango Cremeux:,28,Wallet,Gaspar's,Delivered,2,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,286U286,Veg Premium Burger:,83,Cash,Da Antonio,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,264H264,RAVIOLI:,71,Card,Sushi Masters,Delivered,1,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,320Q320,Curd:,60,Cash,Gaspar's,Delivered,4,Will order again
+QTSI285174SG,11/10/2023,8.31.21,923T923,chocolate mousse,95,Online,Veranda,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,501N501,HALIBUT CEVICHE:,36,Card,Saint German,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,947M947,Regular:,81,Wallet,Brussels Mussels ,Delivered,5,Worth
+FSAM929386AQ,11/10/2023,8.31.21,218R218,Mango shake:,83,Card,Sushi Masters,Delivered,3,Coupon applied
+OXJY167254JK,11/10/2023,8.31.21,123F123,Pizza:,57,Card,Gaspar's,Delivered,1,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,536D536,tartlet:,52,Card,Le Travi,Delivered,5,Worth
+UYXR411673XC,11/10/2023,8.31.21,306Y306,RAVIOLI:,60,Online,Da Antonio,Delivered,5,Good service
+SAMV824387MW,11/10/2023,8.31.21,607D607,Benedict:,68,Cash,Augustin,Delivered,2,Complicated procedure
+JXJY167254JK,11/10/2023,8.31.21,954Sr54,Noodles:as:Bread,89,Wallet,Demoloftas,Delivered,5,Awesome experience
+UYXR411673XC,11/10/2023,8.31.21,123W123,Curd:,49,Wallet,Sushi Masters,Delivered,5,Fast delivery
+OXJY167254JK,11/10/2023,8.31.21,183M183,Benedict:,48,Wallet,Le Travi,Delivered,4,Easy to order
+QTSI285174SG,11/10/2023,8.31.21,779Q779,Banana shake:,23,Wallet,Stebuklai,Delivered,3,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,836M836,meatballs:,61,Cash,Demoloftas,Delivered,1,Difficult to order
+XVTR474839TP,11/10/2023,8.31.21,655V655,salad:,30,Wallet,Demoloftas,Delivered,1,High price
+FRBT691245BA,11/10/2023,8.31.21,389V389,Crispy Onion Rings:,55,Card,Stebuklai,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,351F351,lamb:,39,Card,Augustin,Delivered,2,High price
+LJBO9511000BL,11/10/2023,8.31.21,468P468,Bread:,44,Card,Brussels Mussels ,Delivered,3,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,904M904,Banana shake:,70,Card,Da Antonio,Delivered,5,Nice
+UYXR411673XC,11/10/2023,8.31.21,334A334,Banana shake:,87,Wallet,Veranda,Delivered,3,High price
+XVTR474839TP,11/10/2023,8.31.21,518A518,shake:,32,Online,Da Antonio,Delivered,5,Awesome experience
+UFDF355524DM,11/10/2023,8.31.21,765Q765,Curd:,78,Wallet,Augustin,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,452P452,Vegan cauliflower steak,64,Card,Brussels Mussels ,Delivered,3,Stale food
+SBXX592702XP,11/10/2023,8.31.21,973O973,Banana shake:,90,Cash,Demoloftas,Delivered,5,Awesome experience
+JXJY167254JK,11/10/2023,9.31.21,954Sr54,Bread,12,Wallet,Demoloftas,Delivered,4,Awesome experience
+OXJY167254JK,11/10/2023,8.31.21,394G394,shake:,78,Cash,Gaspar's,Delivered,2,Late delivery
+UYXR411673XC,11/10/2023,8.31.21,773E773,Veg Premium Burger:,69,Card,Stebuklai,Delivered,2,Stale food
+FRBT691245BA,11/10/2023,8.31.21,279R279,Crispy Onion Rings:,26,Cash,Selfish,Delivered,4,Nice
+SBXX592702XP,11/10/2023,8.31.21,848O848,Benedict:,81,Online,Veranda,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,576M576,Edamame beans:,44,Wallet,Brussels Mussels ,Delivered,4,Good service
+LRKI603654KL,11/10/2023,8.31.21,697A697,salad:,100,Wallet,Saint German,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,176C176,BURRATA DI BUFALA:,74,Cash,Demoloftas,Delivered,2,Late delivery
+XVTR474839TP,11/10/2023,8.31.21,566F566,lamb:,91,Cash,Brussels Mussels ,Delivered,4,Delicious food
+JXJY167254JK,11/10/2023,8.31.21,954Sr54,Noodles:Bread,19,Wallet,Demoloftas,Delivered,5,Awesome experience
+QTSI285174SG,11/10/2023,8.31.21,769Z769,Veg Premium Burger:,28,Card,Augustin,Delivered,5,Worth
+FSAM929386AQ,11/10/2023,8.31.21,874C874,RAVIOLI:,78,Online,Saint German,Delivered,5,Good service
+OXJY167254JK,11/10/2023,8.31.21,937A937,Benedict:,60,Card,Sushi Masters,Delivered,4,Delicious food
+OXJY167254JK,11/10/2023,8.31.21,658B658,shake:,70,Online,Demoloftas,Delivered,2,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,755B755,RAVIOLI:,76,Cash,Da Antonio,Delivered,3,High price
+LRKI603654KL,11/10/2023,8.31.21,771L771,lamb:,94,Cash,Demoloftas,Delivered,2,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,859K859,Crispy Onion Rings:,67,Cash,Selfish,Delivered,2,Coupon applied
+OXJY167254JK,11/10/2023,8.31.21,873Y873,tuna steak:,45,Wallet,Brussels Mussels ,Delivered,2,Food not good
+OXJY167254JK,11/10/2023,8.31.21,764T764,meatballs:,25,Card,Veranda,Delivered,4,Cheap and best
+QTSI285174SG,11/10/2023,8.31.21,341I341,Soup of the day:,40,Wallet,Telegrafas,Delivered,3,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,404X404,BURRATA DI BUFALA:,27,Card,Sushi Masters,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,758D758,meatballs:,36,Card,Veranda,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,430S430,Mango shake:,96,Wallet,Stebuklai,Delivered,1,Delivery boy didnt come at doorstep
+QTSI285174SG,11/10/2023,8.31.21,823G823,Scallops:,88,Cash,Gaspar's,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,666X666,HALIBUT CEVICHE:,96,Wallet,Gaspar's,Delivered,5,Nice
+LJBO9511000BL,11/10/2023,8.31.21,382J382,Crispy Onion Rings:,91,Card,Augustin,Delivered,2,Food not good
+OXJY167254JK,11/10/2023,8.31.21,752W752,shake:,89,Card,Da Antonio,Delivered,4,Easy to order
+LJBO9511000BL,11/10/2023,8.31.21,912Z912,tartlet:,50,Online,Brussels Mussels ,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,703K703,Banana shake:,57,Wallet,Veranda,Delivered,5,Good service
+UYXR411673XC,11/10/2023,8.31.21,445Y445,Crispy Onion Rings:,56,Wallet,Demoloftas,Delivered,1,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,309J309,Mango shake:,51,Cash,Gaspar's,Delivered,1,Difficult to order
+LRKI603654KL,11/10/2023,8.31.21,608Q608,Mango Cremeux:,24,Online,Da Antonio,Delivered,2,Coupon applied
+XVTR474839TP,11/10/2023,8.31.21,905K905,BURRATA DI BUFALA:,95,Online,Demoloftas,Delivered,1,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,329T329,Bread:,26,Online,Brussels Mussels ,Delivered,2,Coupon applied
+LJBO9511000BL,11/10/2023,8.31.21,627Z627,SALMON SALAD:,66,Online,Le Travi,Delivered,3,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,787I787,Scallops:,80,Online,Telegrafas,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,938D938,Veg Premium Burger:,91,Cash,Demoloftas,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,933W933,meatballs:,42,Card,Augustin,Delivered,4,Cheap and best
+FRBT691245BA,11/10/2023,8.31.21,792P792,fries:,48,Online,Veranda,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,425V425,Mango shake:,41,Cash,Saint German,Delivered,1,Coupon applied
+LRKI603654KL,11/10/2023,8.31.21,562T562,Bread:,20,Card,Le Travi,Delivered,4,Cheap and best
+LRKI603654KL,11/10/2023,8.31.21,611D611,HALIBUT CEVICHE:,94,Cash,Demoloftas,Delivered,1,Complicated procedure
+LJBO9511000BL,11/10/2023,8.31.21,441M441,salad:,82,Wallet,Saint German,Delivered,2,High price
+SAMV824387MW,11/10/2023,8.31.21,352G352,pickle:,62,Online,Brussels Mussels ,Delivered,2,Difficult to order
+UYXR411673XC,11/10/2023,8.31.21,662X662,meatballs:,49,Online,Selfish,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,249A249,Curd:,57,Online,Brussels Mussels ,Delivered,2,Coupon applied
+QTSI285174SG,11/10/2023,8.31.21,284O284,Pizza:,44,Card,Le Travi,Delivered,5,Easy to order
+UFDF355524DM,11/10/2023,8.31.21,998P998,Veg Premium Burger:,48,Wallet,Le Travi,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,586V586,Curd:,95,Card,Gaspar's,Delivered,2,Late delivery
+UFDF355524DM,11/10/2023,8.31.21,667M667,Curd:,96,Card,Demoloftas,Delivered,1,High price
+UFDF355524DM,11/10/2023,8.31.21,152D152,Noodles:,22,Cash,Saint German,Delivered,3,Coupon applied
+SBXX592702XP,11/10/2023,8.31.21,409H409,Benedict:,71,Online,Le Travi,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,158J158,RAVIOLI:,24,Card,Veranda,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,187L187,Veg Premium Burger:,28,Cash,Le Travi,Delivered,5,Fast delivery
+QTSI285174SG,11/10/2023,8.31.21,878Q878,RAVIOLI:,64,Wallet,Gaspar's,Delivered,5,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,699V699,Bread:,89,Card,Demoloftas,Delivered,4,Easy to order
+UYXR411673XC,11/10/2023,8.31.21,102M102,Banana shake:,42,Card,Brussels Mussels ,Delivered,2,High price
+SBXX592702XP,11/10/2023,8.31.21,400S400,shake:,62,Card,Gaspar's,Delivered,3,Coupon applied
+UFDF355524DM,11/10/2023,8.31.21,177A177,Soup of the day:,39,Online,Selfish,Delivered,2,High price
+FRBT691245BA,11/10/2023,8.31.21,168V168,HALIBUT CEVICHE:,75,Online,Le Travi,Delivered,2,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,374Z374,lamb:,72,Card,Telegrafas,Delivered,4,Delicious food
+SBXX592702XP,11/10/2023,8.31.21,895Y895,pickle:,65,Card,Saint German,Delivered,3,Stale food
+UFDF355524DM,11/10/2023,8.31.21,202U202,Bread:,62,Wallet,Saint German,Delivered,2,Delivery boy didnt come at doorstep
+SBXX592702XP,11/10/2023,8.31.21,925Y925,fries:,86,Cash,Da Antonio,Delivered,5,Cheap and best
+SBXX592702XP,11/10/2023,8.31.21,190Y190,SALMON SALAD:,81,Cash,Selfish,Delivered,1,Late delivery
+SAMV824387MW,11/10/2023,8.31.21,732H732,pickle:,71,Wallet,Brussels Mussels ,Delivered,3,Difficult to order
+OXJY167254JK,11/10/2023,8.31.21,994T994,BURRATA DI BUFALA:,83,Wallet,Brussels Mussels ,Delivered,2,Delivery boy didnt come at doorstep
+OXJY167254JK,11/10/2023,8.31.21,722N722,Banana shake:,41,Wallet,Stebuklai,Delivered,2,Complicated procedure
+SAMV824387MW,11/10/2023,8.31.21,885W885,RAVIOLI:,76,Online,Le Travi,Delivered,5,Easy to order
+UFDF355524DM,11/10/2023,8.31.21,217O217,Noodles:,86,Card,Telegrafas,Delivered,2,Food not good
+UYXR411673XC,11/10/2023,8.31.21,533X533,RAVIOLI:,81,Card,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+QTSI285174SG,11/10/2023,8.31.21,902X902,shake:,33,Card,Da Antonio,Delivered,1,Complicated procedure
+OXJY167254JK,11/10/2023,8.31.21,963R963,Fried Rice:,82,Online,Sushi Masters,Delivered,4,Easy to order
+OXJY167254JK,11/10/2023,8.31.21,2.21E+223,Scallops:,69,Cash,Da Antonio,Delivered,2,Difficult to order
+FRBT691245BA,11/10/2023,8.31.21,701A701,SALMON SALAD:,32,Online,Stebuklai,Delivered,5,Fast delivery
+LJBO9511000BL,11/10/2023,8.31.21,105Z105,tuna steak:,80,Card,Sushi Masters,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,557Z557,Regular:,55,Cash,Gaspar's,Delivered,4,Nice
+LRKI603654KL,11/10/2023,8.31.21,689S689,fries:,49,Wallet,Le Travi,Delivered,5,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,316O316,Soup of the day:,29,Cash,Selfish,Delivered,4,Fast delivery
+OXJY167254JK,11/10/2023,8.31.21,307X307,Scallops:,69,Wallet,Sushi Masters,Delivered,4,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,983A983,RAVIOLI:,35,Wallet,Brussels Mussels ,Delivered,4,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,742Y742,Scallops:,21,Wallet,Demoloftas,Delivered,4,Good service
+XVTR474839TP,11/10/2023,8.31.21,381I381,SALMON SALAD:,42,Online,Stebuklai,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,501F501,SALMON SALAD:,43,Card,Veranda,Delivered,3,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,668P668,Banana shake:,96,Wallet,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,825D825,shake:,98,Cash,Veranda,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,847M847,Bread:,31,Wallet,Augustin,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,128T128,Quiche:,38,Wallet,Le Travi,Delivered,2,Late delivery
+FRBT691245BA,11/10/2023,8.31.21,234L234,Crispy Onion Rings:,45,Online,Saint German,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,421H421,chocolate mousse,23,Cash,Da Antonio,Delivered,1,High price
+OXJY167254JK,11/10/2023,8.31.21,519B519,chocolate mousse,94,Card,Gaspar's,Delivered,1,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,358J358,Crispy Onion Rings:,78,Online,Augustin,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,376E376,Banana shake:,54,Card,Stebuklai,Delivered,2,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,332C332,Pizza:,76,Card,Sushi Masters,Delivered,4,Delicious food
+FRBT691245BA,11/10/2023,8.31.21,584R584,Regular:,57,Card,Saint German,Delivered,5,Delicious food
+OXJY167254JK,11/10/2023,8.31.21,552I552,Benedict:,28,Cash,Augustin,Delivered,4,Delicious food
+SAMV824387MW,11/10/2023,8.31.21,919M919,meatballs:,30,Wallet,Le Travi,Delivered,4,Easy to order
+FRBT691245BA,11/10/2023,8.31.21,961Y961,Soup of the day:,28,Online,Stebuklai,Delivered,5,Will order again
+SAMV824387MW,11/10/2023,8.31.21,593K593,chocolate mousse,38,Online,Saint German,Delivered,5,Will order again
+OXJY167254JK,11/10/2023,8.31.21,752N752,Banana shake:,95,Wallet,Demoloftas,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,455W455,fries:,96,Online,Brussels Mussels ,Delivered,2,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,281D281,RAVIOLI:,79,Cash,Gaspar's,Delivered,3,Food not good
+XVTR474839TP,11/10/2023,8.31.21,819L819,Soup of the day:,31,Online,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,373I373,Quiche:,37,Card,Brussels Mussels ,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,564J564,salad:,63,Wallet,Demoloftas,Delivered,5,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,149F149,Bread:,31,Cash,Saint German,Delivered,4,Worth
+XVTR474839TP,11/10/2023,8.31.21,539I539,meatballs:,51,Online,Demoloftas,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,215J215,Benedict:,39,Cash,Brussels Mussels ,Delivered,1,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,363Z363,meatballs:,52,Cash,Telegrafas,Delivered,5,Worth
+UYXR411673XC,11/10/2023,8.31.21,726Z726,fries:,55,Wallet,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+LRKI603654KL,11/10/2023,8.31.21,741F741,Banana shake:,67,Online,Selfish,Delivered,3,Stale food
+LRKI603654KL,11/10/2023,8.31.21,264U264,meatballs:,52,Card,Saint German,Delivered,1,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,775V775,shake:,54,Cash,Selfish,Delivered,3,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,403H403,pickle:,55,Online,Saint German,Delivered,2,Difficult to order
+SBXX592702XP,11/10/2023,8.31.21,517U517,pickle:,27,Online,Saint German,Delivered,2,Complicated procedure
+UYXR411673XC,11/10/2023,8.31.21,715H715,tuna steak:,66,Wallet,Selfish,Delivered,5,Nice
+QTSI285174SG,11/10/2023,8.31.21,527W527,Scallops:,59,Wallet,Augustin,Delivered,2,Late delivery
+LRKI603654KL,11/10/2023,8.31.21,491A491,Fried Rice:,80,Online,Stebuklai,Delivered,5,Easy to order
+JXJY167254JK,11/10/2023,8.31.21,154S644,Quiche:Noodles:Bread,123,Card,Sushi Masters,Delivered,4,Will order again
+LJBO9511000BL,11/10/2023,8.31.21,105Z105,tuna steak:,80,Card,Sushi Masters,Delivered,2,Stale food
+LJBO9511000BL,11/10/2023,8.31.21,557Z557,Regular:,55,Cash,Gaspar's,Delivered,4,Nice
+LRKI603654KL,11/10/2023,8.31.21,689S689,fries:,49,Wallet,Le Travi,Delivered,5,Awesome experience
+LRKI603654KL,11/10/2023,8.31.21,316O316,Soup of the day:,29,Cash,Selfish,Delivered,4,Fast delivery
+OXJY167254JK,11/10/2023,8.31.21,307X307,Scallops:,69,Wallet,Sushi Masters,Delivered,4,Delicious food
+LRKI603654KL,11/10/2023,8.31.21,983A983,RAVIOLI:,35,Wallet,Brussels Mussels ,Delivered,4,Delicious food
+UYXR411673XC,11/10/2023,8.31.21,742Y742,Scallops:,21,Wallet,Demoloftas,Delivered,4,Good service
+XVTR474839TP,11/10/2023,8.31.21,381I381,SALMON SALAD:,42,Online,Stebuklai,Delivered,2,Stale food
+SBXX592702XP,11/10/2023,8.31.21,501F501,SALMON SALAD:,43,Card,Veranda,Delivered,3,Complicated procedure
+XVTR474839TP,11/10/2023,8.31.21,668P668,Banana shake:,96,Wallet,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+UFDF355524DM,11/10/2023,8.31.21,825D825,shake:,98,Cash,Veranda,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,847M847,Bread:,31,Wallet,Augustin,Delivered,3,Coupon applied
+FRBT691245BA,11/10/2023,8.31.21,128T128,Quiche:,38,Wallet,Le Travi,Delivered,2,Late delivery
+FRBT691245BA,11/10/2023,8.31.21,234L234,Crispy Onion Rings:,45,Online,Saint German,Delivered,4,Cheap and best
+OXJY167254JK,11/10/2023,8.31.21,421H421,chocolate mousse,23,Cash,Da Antonio,Delivered,1,High price
+OXJY167254JK,11/10/2023,8.31.21,519B519,chocolate mousse,94,Card,Gaspar's,Delivered,1,Complicated procedure
+QTSI285174SG,11/10/2023,8.31.21,358J358,Crispy Onion Rings:,78,Online,Augustin,Delivered,3,Stale food
+XVTR474839TP,11/10/2023,8.31.21,376E376,Banana shake:,54,Card,Stebuklai,Delivered,2,Late delivery
+LJBO9511000BL,11/10/2023,8.31.21,332C332,Pizza:,76,Card,Sushi Masters,Delivered,4,Delicious food
+FRBT691245BA,11/10/2023,8.31.21,584R584,Regular:,57,Card,Saint German,Delivered,5,Delicious food
+OXJY167254JK,11/10/2023,8.31.21,552I552,Benedict:,28,Cash,Augustin,Delivered,4,Delicious food
+SAMV824387MW,11/10/2023,8.31.21,919M919,meatballs:,30,Wallet,Le Travi,Delivered,4,Easy to order
+FRBT691245BA,11/10/2023,8.31.21,961Y961,Soup of the day:,28,Online,Stebuklai,Delivered,5,Will order again
+SAMV824387MW,11/10/2023,8.31.21,593K593,chocolate mousse,38,Online,Saint German,Delivered,5,Will order again
+OXJY167254JK,11/10/2023,8.31.21,752N752,Banana shake:,95,Wallet,Demoloftas,Delivered,2,Difficult to order
+LJBO9511000BL,11/10/2023,8.31.21,455W455,fries:,96,Online,Brussels Mussels ,Delivered,2,Complicated procedure
+LRKI603654KL,11/10/2023,8.31.21,281D281,RAVIOLI:,79,Cash,Gaspar's,Delivered,3,Food not good
+XVTR474839TP,11/10/2023,8.31.21,819L819,Soup of the day:,31,Online,Le Travi,Delivered,2,Delivery boy didnt come at doorstep
+XVTR474839TP,11/10/2023,8.31.21,373I373,Quiche:,37,Card,Brussels Mussels ,Delivered,2,Late delivery
+OXJY167254JK,11/10/2023,8.31.21,564J564,salad:,63,Wallet,Demoloftas,Delivered,5,Cheap and best
+SAMV824387MW,11/10/2023,8.31.21,149F149,Bread:,31,Cash,Saint German,Delivered,4,Worth
+XVTR474839TP,11/10/2023,8.31.21,539I539,meatballs:,51,Online,Demoloftas,Delivered,1,High price
+LJBO9511000BL,11/10/2023,8.31.21,215J215,Benedict:,39,Cash,Brussels Mussels ,Delivered,1,Delivery boy didnt come at doorstep
+SAMV824387MW,11/10/2023,8.31.21,363Z363,meatballs:,52,Cash,Telegrafas,Delivered,5,Worth
