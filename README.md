@@ -4,7 +4,8 @@ So we will use: GCS, Composer, Dataflow, BigQuery, Data Studio (not the same as 
 
 Upload csv file to your bucket
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/d4a9ee6d-a590-4a44-bf82-79497d4d0361)
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/824981e5-fee9-46b3-8c16-d9a78a68b31a)
+
 
 
 
