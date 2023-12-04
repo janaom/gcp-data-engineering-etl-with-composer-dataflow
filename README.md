@@ -16,10 +16,10 @@ Set the project: `gcloud config set project your-project-id`
 
 Install Apache Beam: `pip install apache-beam[gcp]`
 
-Test Beam code: `python beam.py --input gs://de-project-food-orders/food_daily.csv --temp_location gs://de-project-food-orders`
+Test Beam code in the shell: `python beam.py --input gs://de-project-food-orders/food_daily.csv --temp_location gs://de-project-food-orders`
 
+![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/ef210164-b3a6-4e75-b932-c5eec5223f0b)
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/689b69fd-2785-447f-8905-cd164c08d347)
 
 
 Results in BQ. To avoid any errors delete the dataset/tables/view before running the code in the next step. 
