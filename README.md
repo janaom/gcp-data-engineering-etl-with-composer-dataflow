@@ -9,7 +9,9 @@ Upload csv file to your bucket
 
 
 
-# Beam code  ![beam](https://beam.apache.org/images/logos/full-color/nameless/beam-logo-full-color-nameless-100.png)
+# Beam code ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/efadef42-4d27-4223-888d-f2a55eb6d006)
+
+
 
 Set the project: `gcloud config set project your-project-id`
 
@@ -29,7 +31,7 @@ Results in BQ. To avoid any errors delete the dataset/tables/view before running
 
 
 
-# Cloud Composer/Airflow ![composer](https://github.com/buildkite/emojis/raw/main/img-buildkite-64/composer.png) ![airflow](https://github.com/buildkite/emojis/blob/main/img-buildkite-64/airflow.png)
+# Cloud Composer/Airflow  ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e1d45e3d-67d7-4b81-b7b5-82829a082cfe)
 
 Enable Cloud Composer API.
 
