@@ -115,6 +115,8 @@ It's important to give Cloud Composer v2 API Service Agent Extension role to you
 
 Select Environment size: Small.
 
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5377ced5-2b83-4f44-bdd0-fc0d51203954)
+
 
 
 
