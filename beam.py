@@ -26,23 +26,23 @@ options = PipelineOptions(pipeline_args)
 
 p = beam.Pipeline(options = options)
 
-def remove_last_colon(row):		# OXJY167254JK,11-09-2020,8:11:21,854A854,Chow M?ein:,65,Cash,Sadabahar,Delivered,5,Awesome experience
-    cols = row.split(',')		# [(OXJY167254JK) (11-11-2020) (8:11:21) (854A854) (Chow M?ein:) (65) (Cash) ....]
-    item = str(cols[4])			# item = Chow M?ein:
+def remove_last_colon(row):		
+    cols = row.split(',')		
+    item = str(cols[4])			
     
     if item.endswith(':'):
-        cols[4] = item[:-1]		# cols[4] = Chow M?ein
+        cols[4] = item[:-1]		
 
-    return ','.join(cols)		# OXJY167254JK,11-11-2020,8:11:21,854A854,Chow M?ein,65,Cash,Sadabahar,Delivered,5,Awesome experience
+    return ','.join(cols)		
 	
-def remove_special_characters(row):    # oxjy167254jk,11-11-2020,8:11:21,854a854,chow m?ein,65,cash,sadabahar,delivered,5,awesome experience
+def remove_special_characters(row):   
     import re
-    cols = row.split(',')			# [(oxjy167254jk) (11-11-2020) (8:11:21) (854a854) (chow m?ein) (65) (cash) ....]
+    cols = row.split(',')			
     ret = ''
     for col in cols:
         clean_col = re.sub(r'[?%&]','', col)
-        ret = ret + clean_col + ','			# oxjy167254jk,11-11-2020,8:11:21,854a854,chow mein:,65,cash,sadabahar,delivered,5,awesome experience,
-    ret = ret[:-1]						# oxjy167254jk,11-11-2020,8:11:21,854A854,chow mein:,65,cash,sadabahar,delivered,5,awesome experience
+        ret = ret + clean_col + ','			
+    ret = ret[:-1]						
     return ret
 
 def print_row(row):
@@ -55,7 +55,7 @@ cleaned_data = (
 	| beam.Map(remove_last_colon)
 	| beam.Map(lambda row: row.lower())
 	| beam.Map(remove_special_characters)
-	| beam.Map(lambda row: row+',1')		# oxjy167254jk,11-11-2020,8:11:21,854a854,chow mein,65,cash,sadabahar,delivered,5,awesome experience,1
+	| beam.Map(lambda row: row+',1')		
 )
 
 
@@ -71,8 +71,8 @@ other_orders = (
 )
 
 (cleaned_data
- | 'count total' >> beam.combiners.Count.Globally() 		# 920
- | 'total map' >> beam.Map(lambda x: 'Total Count:' +str(x))	# Total Count: 920
+ | 'count total' >> beam.combiners.Count.Globally() 		
+ | 'total map' >> beam.Map(lambda x: 'Total Count:' +str(x))	
  | 'print total' >> beam.Map(print_row)
 
 )
