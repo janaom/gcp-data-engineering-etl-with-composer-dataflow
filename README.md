@@ -50,7 +50,7 @@ Create a Composer environment
 
  - The Google Cloud Platform Service Account to be used by the node VMs. If a service account is not specified, the "default" Compute Engine service account is used. Cannot be updated. 
 
-It took me around 15min to create Composer 1 environment. 
+It took me around 15min to create Composer 1 environment. If it fails, try different zone.
 
 ![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/177f66db-9af2-439b-a12a-8278b66500a3)
 
