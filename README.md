@@ -29,13 +29,13 @@ Results in BQ. To avoid any errors delete the dataset/tables/view before running
 
 
 
-# Cloud Composer/Airflow ![airflow](https://github.com/buildkite/emojis/blob/main/img-buildkite-64/airflow.png)   :airflow:
+# Cloud Composer/Airflow ![composer](https://github.com/buildkite/emojis/raw/main/img-buildkite-64/composer.png) ![airflow](https://github.com/buildkite/emojis/blob/main/img-buildkite-64/airflow.png)
 
 Enable Cloud Composer API.
 
 Enable Dataflow API.
 
-## Composer 1
+## Composer 1 
 
 If your code has `contrib` imports you can run it only in the Composer 1.
 
