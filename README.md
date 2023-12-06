@@ -105,5 +105,16 @@ You should get the same results in BQ.
 ![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/ddd5f7b5-d809-46dc-8632-871287e4e39a)
 
 
+## Composer 2
+
+Create a Composer 2 environment
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/349d0685-6174-4c35-8e2b-545e2f59488c)
+
+It's important to give Cloud Composer v2 API Service Agent Extension role to your Service Account.
+
+Select Environment size: Small.
+
+
 
 
