@@ -1,3 +1,4 @@
+
 #project-id:dataset_id.table_id
 delivered_table_spec = 'food-orders-407014:dataset_food_orders.delivered_orders'
 #project-id:dataset_id.table_id
@@ -7,6 +8,7 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
 import argparse
 from google.cloud import bigquery
+from google.cloud.exceptions import NotFound
 
 
 parser = argparse.ArgumentParser()
@@ -91,7 +93,7 @@ other_orders = (
 # BigQuery 
 client = bigquery.Client()
 
-dataset_id = "{}.dataset_food_orders".format(client.project)
+dataset_id = "food-orders-407014.dataset_food_orders"
 
 try:
 	client.get_dataset(dataset_id)
@@ -99,10 +101,10 @@ try:
 except:
 	dataset = bigquery.Dataset(dataset_id)  #
 
-	dataset.location = "EU"
+	dataset.location = "US"
 	dataset.description = "dataset for food orders"
 
-	dataset_ref = client.create_dataset(dataset, timeout=30)  # Make an API request.
+	dataset_ref = client.create_dataset(dataset_id, exists_ok=True)
 	
 def to_json(csv_str):
     fields = csv_str.split(',')
@@ -155,7 +157,7 @@ else:
     print('Error Running beam pipeline')
 
 view_name = "daily_food_orders"
-dataset_ref = client.dataset('dataset_food_orders')
+dataset_ref = client.dataset('dataset_food_orders', project="food-orders-407014")
 view_ref = dataset_ref.table(view_name)
 view_to_create = bigquery.Table(view_ref)
 
@@ -163,7 +165,15 @@ view_to_create.view_query = 'select * from `food-orders-407014.dataset_food_orde
 view_to_create.view_use_legacy_sql = False
 
 try:
-	client.create_table(view_to_create)
-	
-except:
-	print ('View already exists')
+    # Check if the view already exists
+    existing_view = client.get_table(view_ref)
+    print("View already exists. Dropping the existing view...")
+    client.delete_table(view_ref)  # Drop the existing view
+    print("Existing view dropped successfully.")
+except NotFound:
+    # If the view does not exist, no need to drop it
+    pass
+
+# Create the new view
+client.create_table(view_to_create)
+print("View created successfully.")
