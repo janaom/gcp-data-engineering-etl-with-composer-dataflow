@@ -1,6 +1,6 @@
 So we will use: GCS, Composer, Dataflow, BigQuery, Data Studio (not the same as Looker, need to try out)
 
-# GCS
+# GCS 🪣
 
 Upload csv file to your bucket
 
@@ -29,7 +29,7 @@ Results in BQ. To avoid any errors delete the dataset/tables/view before running
 
 
 
-# Cloud Composer/Airflow 
+# Cloud Composer/Airflow ![airflow](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/3bf63e1d-bc1e-463d-967f-c61b1d8c4df4)
 
 Enable Cloud Composer API.
 
