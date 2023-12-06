@@ -94,3 +94,5 @@ Changed view part
 
 ![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/aeecee47-a1b8-4eb9-8ac4-15aeb4039927)
 
+
+Both buckets should be in the same location, otherwise you will get this error message: 'Cannot read and write in different locations: source: US, destination: EU’
