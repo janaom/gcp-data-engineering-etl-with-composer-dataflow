@@ -29,7 +29,7 @@ Results in BQ. To avoid any errors delete the dataset/tables/view before running
 
 
 
-# Cloud Composer/Airflow ![airflow](https://github.com/buildkite/emojis/blob/main/img-buildkite-64/airflow.png)
+# Cloud Composer/Airflow ![airflow](https://github.com/buildkite/emojis/blob/main/img-buildkite-64/airflow.png)   :airflow:
 
 Enable Cloud Composer API.
 
