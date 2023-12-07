@@ -151,3 +151,9 @@ Wait for the run or trigger your DAG, check logs for more info. You should see t
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/957e9244-f6a9-4944-90d7-4b85b9a194cc)
 
+# Looker 🔍
+
+Connect to your Looker account: https://lookerstudio.google.com. Select BQ connection.
+Create your own daily report, use delivered/other status orders. Here is my example
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/ebca078f-f231-4f86-9938-c0cf026c0c97)
