@@ -10,7 +10,7 @@ import argparse
 from google.cloud import bigquery
 from google.cloud.exceptions import NotFound
 
-
+#Command-line argument parser
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--input',
@@ -22,11 +22,13 @@ path_args, pipeline_args = parser.parse_known_args()
 
 inputs_pattern = path_args.input
 
+#Pipeline options
 options = PipelineOptions(pipeline_args)
-
 p = beam.Pipeline(options = options)
 
-def remove_last_colon(row):		
+#Transformation functions
+def remove_last_colon(row):
+    #Remove the trailing colon from the fifth column of the row		
     cols = row.split(',')		
     item = str(cols[4])			
     
@@ -35,7 +37,8 @@ def remove_last_colon(row):
 
     return ','.join(cols)		
 	
-def remove_special_characters(row):   
+def remove_special_characters(row): 
+    #Remove special characters from each column of the row 
     import re
     cols = row.split(',')			
     ret = ''
@@ -48,7 +51,7 @@ def remove_special_characters(row):
 def print_row(row):
     print (row)
 
-
+#Data processing pipeline
 cleaned_data = (
 	p
 	| beam.io.ReadFromText(inputs_pattern, skip_header_lines=1)
@@ -90,7 +93,7 @@ other_orders = (
  | 'print undelivered' >> beam.Map(print_row)
  )
 
-# BigQuery 
+#BigQuery 
 client = bigquery.Client()
 
 dataset_id = "food-orders-407014.dataset_food_orders"
@@ -107,6 +110,7 @@ except:
 	dataset_ref = client.create_dataset(dataset_id, exists_ok=True)
 	
 def to_json(csv_str):
+    #Convert a CSV string to a JSON object
     fields = csv_str.split(',')
     
     json_str = {"customer_id":fields[0],
@@ -148,32 +152,10 @@ table_schema = 'customer_id:STRING,date:STRING,timestamp:STRING,order_id:STRING,
 	additional_bq_parameters={'timePartitioning': {'type': 'DAY'}}
 	)
 )
-
+#Running the pipeline
 from apache_beam.runners.runner import PipelineState
 ret = p.run()
 if ret.state == PipelineState.DONE:
     print('Success!!!')
 else:
     print('Error Running beam pipeline')
-
-view_name = "daily_food_orders"
-dataset_ref = client.dataset('dataset_food_orders', project="food-orders-407014")
-view_ref = dataset_ref.table(view_name)
-view_to_create = bigquery.Table(view_ref)
-
-view_to_create.view_query = 'select * from `food-orders-407014.dataset_food_orders.delivered_orders` where _PARTITIONDATE = DATE(current_date())'
-view_to_create.view_use_legacy_sql = False
-
-try:
-    # Check if the view already exists
-    existing_view = client.get_table(view_ref)
-    print("View already exists. Dropping the existing view...")
-    client.delete_table(view_ref)  # Drop the existing view
-    print("Existing view dropped successfully.")
-except NotFound:
-    # If the view does not exist, no need to drop it
-    pass
-
-# Create the new view
-client.create_table(view_to_create)
-print("View created successfully.")
