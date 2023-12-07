@@ -11,37 +11,55 @@ Upload csv file to your bucket
 
 # Beam code ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/ccdad178-1609-41d7-9393-f47e065c9d29)
 
+📖
+
+This code is a data processing pipeline implemented using Apache Beam. It reads data from an input file, performs cleaning and filtering operations, and writes the results to two separate BigQuery tables based on specific conditions.
+
+The pipeline consists of the following steps:
+
+1. Command-line arguments are parsed to specify the input file.
+2. The data is read from the input file and undergoes cleaning operations, such as removing trailing colons and special characters.
+3. The cleaned data is split into two branches based on the status of the orders: delivered and undelivered.
+4. The total count of records, delivered orders count, and undelivered orders count are computed and printed.
+5. The cleaned and filtered data from the delivered orders branch is transformed into JSON format and written to a BigQuery table.
+6. Similarly, the cleaned and filtered data from the undelivered orders branch is transformed into JSON format and written to another BigQuery table.
+7. The pipeline is executed, and the success or failure status is printed.
+
+👩‍💻
 
 Set the project: `gcloud config set project your-project-id`
 
 Install Apache Beam: `pip install apache-beam[gcp]`
 
-Test Beam code in the shell: `python beam.py --input gs://de-project-food-orders/food_daily.csv --temp_location gs://de-project-food-orders`
+Test Beam code in the shell:  `python beam.py --input gs://your-bucket/food_daily.csv --temp_location gs://your-bucket`
 
 ❗  Make sure that all your files and services are in the same location. E.g. both buckets should be in the same location or you will get the error message: 'Cannot read and write in different locations: source: US, destination: EU’
 
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/ea3f1109-0672-4600-8d69-e5ea4e1c7484)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5f26e09a-3b98-4848-9413-097a49a84bd6)
 
 
-Results in BQ. To avoid any errors delete the dataset/tables/view before running the code in the next step. 
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/5a5d939a-8988-4ffe-a18f-aee0142ce75e)
+Check results in BQ.  
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/8d18241f-4ede-431e-b123-744ed9470f0c)
+
 
 
 
 # Cloud Composer/Airflow ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/41c83c58-4685-41df-a3d8-3aedb1f94b23)
 
+📖
 
-Enable Cloud Composer API.
+This code defines an Airflow DAG (Directed Acyclic Graph) named "food_orders_dag" that schedules the execution of a Beam pipeline on a daily basis. The DAG uses the DataFlowPythonOperator to execute the Beam pipeline defined in the file located at `gs://us-central1-food-orders-dev-752d1f51-bucket/beam.py`. The pipeline processes data from the input file `gs://food-orders-us/food_daily.csv`. The DAG is configured with default arguments, including the project and region information for Dataflow, and it does not catch up on missed runs.
 
-Enable Dataflow API.
+👩‍💻
+
+Enable Cloud Composer API, Dataflow API: `gcloud services enable composer.googleapis.com dataflow.googleapis.com`
 
 ## Composer 1 
 
-If your code has `contrib` imports you can run it only in the Composer 1.
-
-More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) about DataFlowPythonOperator for the Composer 1.
+If your code has `contrib` imports you can run it only in the Composer 1. More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) about DataFlowPythonOperator.
 
 Create a Composer environment
 
@@ -111,12 +129,25 @@ Create a Composer 2 environment
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/349d0685-6174-4c35-8e2b-545e2f59488c)
 
-It's important to give Cloud Composer v2 API Service Agent Extension role to your Service Account.
+❗ It's important to give `Cloud Composer v2 API Service Agent Extension` role to your Service Account.
 
 Select Environment size: Small.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5377ced5-2b83-4f44-bdd0-fc0d51203954)
 
+The rest is the same, add Beam code to the Composer bucket, copy `gsutil URl` link and add it to the DAG.
 
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4e59c352-9123-4566-b156-d98cd91fff6a)
 
+Upload `airflow2.py` code to `dags` folder
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/518c7f43-2dcc-47d8-9a32-0c94bba84786)
+
+In Airflow 2 you will get a new fancy dashboard
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/74c39295-ad3c-4c8e-bbe1-06c51195cb2a)
+
+Wait for the run or trigger your DAG, check logs for more info. You should see the same result in Dataflow and Bigquery.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/957e9244-f6a9-4944-90d7-4b85b9a194cc)
 
