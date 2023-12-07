@@ -9,8 +9,7 @@ Upload csv file to your bucket
 
 
 
-# Beam code ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/efadef42-4d27-4223-888d-f2a55eb6d006)
-
+# Beam code ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/ccdad178-1609-41d7-9393-f47e065c9d29)
 
 
 Set the project: `gcloud config set project your-project-id`
