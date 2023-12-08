@@ -151,6 +151,8 @@ Wait for the run or trigger your DAG, check logs for more info. You should see t
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/957e9244-f6a9-4944-90d7-4b85b9a194cc)
 
+❗Do not forget to delete Composer. This service may be quite expensive. I am using a free trial, so the project cost me around 7 eu. New customers get [$300 in free credits](https://cloud.google.com/free/docs/free-cloud-features#free-trial) to fully explore and conduct an assessment of Google Cloud.
+
 # Looker 🔍
 
 Connect to your Looker account: https://lookerstudio.google.com. Select BQ connection.
