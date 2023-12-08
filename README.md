@@ -1,6 +1,17 @@
-So we will use: GCS, Composer, Dataflow, BigQuery, Data Studio (not the same as Looker, need to try out)
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering project: ETL with Composer/Airflow and Dataflow/Beam
 
-# GCS 🪣
+This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline in the online food delivery market. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
+
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/bcbaaece-210c-4cc6-9a05-2209938b80d5"> GCS is used to store and manage the transactional data.
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/539efc11-7750-45de-9668-eeed72cce873"> Composer, a managed Apache Airflow service, is utilized to orchestrate Dataflow jobs.
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e2baadc1-8415-418c-b8a1-462bcd2f2d42"> Dataflow, based on Apache Beam, is responsible for data processing, transformation, and loading into BigQuery.
+
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/addc7e2a-cf33-49ae-be06-0d91225c6b57"> BigQuery serves as a serverless data warehouse.
+- <img width="18" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker, a business intelligence and analytics platform, is employed to generate daily reports.
+
+These technologies work together to efficiently process, store, and generate reports on the daily transaction data.
+
+# <img width="30" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/bcbaaece-210c-4cc6-9a05-2209938b80d5"> GCS
 
 Upload csv file to your bucket
 
@@ -9,7 +20,7 @@ Upload csv file to your bucket
 
 
 
-# Beam code ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/ccdad178-1609-41d7-9393-f47e065c9d29)
+# <img width="40" alt="image" src="https://beam.apache.org/images/mascot/beam_mascot_500x500.png"> Beam code
 
 📖
 
@@ -47,7 +58,7 @@ Check results in BQ.
 
 
 
-# Cloud Composer/Airflow ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/41c83c58-4685-41df-a3d8-3aedb1f94b23)
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/11a70491-6454-4915-8a2a-f5698ca1c920"> Cloud Composer/Airflow
 
 📖
 
@@ -153,7 +164,7 @@ Wait for the run or trigger your DAG, check logs for more info. You should see t
 
 ❗Do not forget to delete Composer. This service may be quite expensive. I am using a free trial, so the project cost me around 7 eu. New customers get [$300 in free credits](https://cloud.google.com/free/docs/free-cloud-features#free-trial) to fully explore and conduct an assessment of Google Cloud.
 
-# Looker 🔍
+# <img width="30" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker
 
 Connect to your Looker account: https://lookerstudio.google.com. Select BQ connection.
 Create your own daily report, use delivered/other status orders. Here is my example
