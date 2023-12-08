@@ -1,13 +1,13 @@
-# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering project: ETL with Composer/Airflow and Dataflow/Beam
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c879fbf8-1d88-4080-97c3-5dcbd42e240f"> GCP Data Engineering Project: Building and Orchestrating an ETL Pipeline with Apache Beam and Apache Airflow
 
 This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline in the online food delivery market. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
 
-- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/bcbaaece-210c-4cc6-9a05-2209938b80d5"> GCS is used to store and manage the transactional data.
-- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/539efc11-7750-45de-9668-eeed72cce873"> Composer, a managed Apache Airflow service, is utilized to orchestrate Dataflow jobs.
-- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e2baadc1-8415-418c-b8a1-462bcd2f2d42"> Dataflow, based on Apache Beam, is responsible for data processing, transformation, and loading into BigQuery.
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/bcbaaece-210c-4cc6-9a05-2209938b80d5"> GCS is used to store and manage the transactional data
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/539efc11-7750-45de-9668-eeed72cce873"> Composer, a managed Apache Airflow service, is utilized to orchestrate Dataflow jobs
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e2baadc1-8415-418c-b8a1-462bcd2f2d42"> Dataflow, based on Apache Beam, is responsible for data processing, transformation, and loading into BigQuery
 
-- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/addc7e2a-cf33-49ae-be06-0d91225c6b57"> BigQuery serves as a serverless data warehouse.
-- <img width="18" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker, a business intelligence and analytics platform, is employed to generate daily reports.
+- <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/addc7e2a-cf33-49ae-be06-0d91225c6b57"> BigQuery serves as a serverless data warehouse
+- <img width="18" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker, a business intelligence and analytics platform, is employed to generate daily reports
 
 These technologies work together to efficiently process, store, and generate reports on the daily transaction data.
 
@@ -24,7 +24,7 @@ Upload csv file to your bucket
 
 📖
 
-This code is a data processing pipeline implemented using Apache Beam. It reads data from an input file, performs cleaning and filtering operations, and writes the results to two separate BigQuery tables based on specific conditions.
+`Beam.py` code is a data processing pipeline implemented using Apache Beam. It reads data from an input file, performs cleaning and filtering operations, and writes the results to two separate BigQuery tables based on specific conditions.
 
 The pipeline consists of the following steps:
 
