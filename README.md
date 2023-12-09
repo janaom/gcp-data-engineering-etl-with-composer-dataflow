@@ -1,6 +1,6 @@
 # <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/60f8f158-3bdc-4b3d-94ae-27a12441e2a3"> GCP Data Engineering Project: Building and Orchestrating an ETL Pipeline with Apache Beam and Apache Airflow
 
-This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline for the online food delivery market. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
+This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline for the online food delivery industry. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
 
 - <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6b5ffddf-0f74-41cf-8303-22f675cabdda"> GCS is used to store and manage the transactional data
 - <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4c57cf42-15d3-4ba3-bad6-65b7fb9c5094"> Composer, a managed Apache Airflow service, is utilized to orchestrate Dataflow jobs
@@ -26,7 +26,7 @@ Upload csv file to your bucket. The provided transactional data represents a sam
 
 📖
 
-`Beam.py` code is a data processing pipeline implemented using Apache Beam. It reads data from an input file, performs cleaning and filtering operations, and writes the results to two separate BigQuery tables based on specific conditions.
+`beam.py` code is a data processing pipeline implemented using Apache Beam. It reads data from an input file, performs cleaning and filtering operations, and writes the results to two separate BigQuery tables based on specific conditions.
 
 The pipeline consists of the following steps:
 
@@ -64,7 +64,11 @@ Check results in BigQuery.
 
 📖
 
-This code defines an Airflow DAG (Directed Acyclic Graph) named "food_orders_dag" that schedules the execution of a Beam pipeline on a daily basis. The DAG uses the DataFlowPythonOperator to execute the Beam pipeline defined in the file located at `gs://composer-bucket/beam.py`. The pipeline processes data from the input file `gs://your-bucket/food_daily.csv`. The DAG is configured with default arguments, including the project and region information for Dataflow, and it does not catch up on missed runs.
+The DAG monitors the GCS bucket for new files with the specified prefix using the GoogleCloudStoragePrefixSensor (for Airflow 1) or GCSObjectsWithPrefixExistenceSensor (for Airflow 2). When a new file is found, it executes the `list_files` function which uses the GCSHook to move the file to a 'processed' subdirectory and delete the original file. Finally, it triggers the execution of a Dataflow pipeline using the DataFlowPythonOperator (for Airflow 1) or DataflowRunPythonJobOperator (for Airflow 2) with the processed file as input.
+
+This setup is ideal for recurring data processing workflows where files arrive in a GCS bucket at regular intervals (e.g., every 10 minutes) and need to be transformed using Dataflow and loaded into BigQuery. By using Apache Airflow and this DAG, you can automate and schedule the data processing workflow. The DAG ensures that the tasks are executed in the defined order and at the specified intervals.
+
+Do note that the actual operator and hook names, and some of their parameters, will differ between Airflow 1 and Airflow 2. Be sure to use the correct names and parameters for your version of Airflow.
 
 👩‍💻
 
@@ -72,9 +76,9 @@ Enable Cloud Composer API, Dataflow API: `gcloud services enable composer.google
 
 ## Composer 1 
 
-If your code has `contrib` imports you can run it only in the Composer 1. More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) about DataFlowPythonOperator.
+If your code has `contrib` imports you can run it only in the Composer 1. To know more about Airflow operators, check https://airflow.apache.org/ or https://registry.astronomer.io/
 
-Create a Composer environment.
+Create a Composer 1 environment.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f5f7d40b-67fe-4206-9501-92b042c950f7)
 
@@ -83,9 +87,9 @@ Create a Composer environment.
 
  - Disk size: 30. The disk size in GB used for node VMs. Minimum is 30 GB. If unspecified, defaults to 100 GB. Cannot be updated. 
 
- - The Google Cloud Platform Service Account to be used by the node VMs. If a service account is not specified, the "default" Compute Engine service account is used. Cannot be updated. 
+ - The Google Cloud Platform Service Account to be used by the node VMs. If a service account is not specified, the "default" Compute Engine service account is used. Cannot be updated.
 
-It took me around 15min to create Composer 1 environment. If it fails, try different zone.
+Creating a Composer 1 environment typically takes around 15 minutes. If the creation process fails, you may want to consider trying a different zone.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
 
@@ -95,24 +99,24 @@ Upload Beam code to your Composer bucket.
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe512ed-489a-4955-b289-89d72be61dcf)
 
 
-Then go to the object details and copy gsutil URI and paste it in the DAG file (`py_file`).
+Go to the object details and copy `gsutil URI` and paste it in the DAG file (`py_file`).
 
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/593511d3-fde2-4704-8c3e-030037802419)
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/8601ea31-2c88-42d6-9441-bf5576b0e19e)
 
-Upload airflow.py file to the dags folder.
+Upload `airflow.py` file to the dags folder.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/91ef65c4-37de-42b4-85be-85187a4db78c)
 
-After few minutes DAG will appear in Airlfow UI. The DAG is scheduled to run every 10 min. Wait for the run or trigger the DAG mannually.
+Once a few minutes have passed, the DAG will become visible in the Airflow UI. For testing purposes, the DAG is initially scheduled to run every 10 minutes. However, you have the flexibility to modify the schedule according to your specific requirements. You can either wait for the scheduled run to occur automatically or manually trigger the DAG if you prefer.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/52cfa6e7-e577-412c-963c-2861dc2eb4cf)
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e671c5ef-ed4c-470d-b96a-636119e9b847)
 
-To understand the process check logs of each task
+To gain a better understanding of the process, you can review the logs of each individual task. 
 
 ### 🚀 gcs_sensor
 
@@ -146,18 +150,18 @@ Open BigQuery to see the results.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/eebb4d73-6332-4a90-8798-e81cc5b2f628)
 
-In reality usually files come with a timestamp. I uploaded a new file to the bucket to see if solution works.
+In practice, files often come with timestamps. As a test, I have uploaded a new file to the bucket to verify if the solution is functioning correctly.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6a16b07e-7bc3-4522-9fb6-ff94347ffa63)
 
 
-Solution worked as expected. New file was copied to the processed folder and the same process repeated. The transformed data will be added to the same tables in BQ.
+The solution performed as expected. The new file was successfully copied to the 'processed' folder, and the same process was repeated. The resulting transformed data will be appended to the existing tables in BigQuery.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a4d449d0-35ec-42dc-b6b6-c08e91934b95)
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/12d734e3-d0ae-44ff-9bd6-f1e8b27859e1)
 
-Values can be found in Xcoms. 
+The values can be accessed and retrieved from XComs.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/1e26c216-0a18-475d-98eb-367883d7469a)
 
