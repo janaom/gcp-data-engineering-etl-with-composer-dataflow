@@ -44,10 +44,11 @@ Set the project: `gcloud config set project your-project-id`
 
 Install Apache Beam: `pip install apache-beam[gcp]`
 
-Test Beam code in the shell:  `python beam.py --input gs://your-bucket/food_daily.csv --temp_location gs://your-bucket`
+Give the Beam code a test run in the shell and then check the results in BigQuery:  `python beam.py --input gs://your-bucket/food_daily.csv --temp_location gs://your-bucket`
 
 ❗  Make sure that all your files and services are in the same location. E.g. both buckets should be in the same location or you will get a similar error message: 'Cannot read and write in different locations: source: US, destination: EU’
 
+To avoid any confusion, it is recommended to delete the dataset before moving forward with actions that involve appending data in BigQuery.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5f26e09a-3b98-4848-9413-097a49a84bd6)
 
