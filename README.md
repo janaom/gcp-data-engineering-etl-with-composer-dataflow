@@ -1,6 +1,6 @@
 # <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/60f8f158-3bdc-4b3d-94ae-27a12441e2a3"> GCP Data Engineering Project: Building and Orchestrating an ETL Pipeline with Apache Beam and Apache Airflow
 
-This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline in the online food delivery market. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
+This GCP Data Engineering project focuses on developing a robust ETL (Extract, Transform, Load) pipeline for the online food delivery market. The pipeline is designed to handle batch transactional data and leverages various Google Cloud Platform (GCP) services:
 
 - <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6b5ffddf-0f74-41cf-8303-22f675cabdda"> GCS is used to store and manage the transactional data
 - <img width="18" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4c57cf42-15d3-4ba3-bad6-65b7fb9c5094"> Composer, a managed Apache Airflow service, is utilized to orchestrate Dataflow jobs
@@ -9,6 +9,9 @@ This GCP Data Engineering project focuses on developing a robust ETL (Extract, T
 - <img width="18" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker, a business intelligence and analytics platform, is employed to generate daily reports
 
 These technologies work together to efficiently process, store, and generate reports on the daily transaction data.
+
+![GCP-Diagram](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f3a7ff86-92b3-46db-a156-e5ebbefc3bb9)
+
 
 # <img width="30" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6b5ffddf-0f74-41cf-8303-22f675cabdda"> GCS
 
@@ -57,11 +60,11 @@ Check results in BigQuery.
 
 
 
-# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c1d5bfc6-94c3-44e4-b38e-4eaf5656a840"> Cloud Composer/Airflow
+# <img width="40" alt="image" src="https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c1d5bfc6-94c3-44e4-b38e-4eaf5656a840"> Composer/Airflow
 
 📖
 
-This code defines an Airflow DAG (Directed Acyclic Graph) named "food_orders_dag" that schedules the execution of a Beam pipeline on a daily basis. The DAG uses the DataFlowPythonOperator to execute the Beam pipeline defined in the file located at `gs://us-central1-food-orders-dev-752d1f51-bucket/beam.py`. The pipeline processes data from the input file `gs://food-orders-us/food_daily.csv`. The DAG is configured with default arguments, including the project and region information for Dataflow, and it does not catch up on missed runs.
+This code defines an Airflow DAG (Directed Acyclic Graph) named "food_orders_dag" that schedules the execution of a Beam pipeline on a daily basis. The DAG uses the DataFlowPythonOperator to execute the Beam pipeline defined in the file located at `gs://composer-bucket/beam.py`. The pipeline processes data from the input file `gs://your-bucket/food_daily.csv`. The DAG is configured with default arguments, including the project and region information for Dataflow, and it does not catch up on missed runs.
 
 👩‍💻
 
