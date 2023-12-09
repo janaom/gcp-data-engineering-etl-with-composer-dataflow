@@ -144,6 +144,97 @@ You should get the same results in BQ.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a0a12fc2-9d07-42c6-9b7b-b0a27eb462e1)
 
+# New solution for Composer 1
+
+If your code has `contrib` imports you can run it only in the Composer 1. More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) about DataFlowPythonOperator.
+
+Create a Composer environment.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f5f7d40b-67fe-4206-9501-92b042c950f7)
+
+
+ - Select n1-standard-1 (1 vCPU, 3.75 GB RAM)
+
+ - Disk size: 30. The disk size in GB used for node VMs. Minimum is 30 GB. If unspecified, defaults to 100 GB. Cannot be updated. 
+
+ - The Google Cloud Platform Service Account to be used by the node VMs. If a service account is not specified, the "default" Compute Engine service account is used. Cannot be updated. 
+
+It took me around 15min to create Composer 1 environment. If it fails, try different zone.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
+
+
+Upload Beam code to your Composer bucket.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe512ed-489a-4955-b289-89d72be61dcf)
+
+
+Then go to the object details and copy gsutil URI and paste it in the DAG file (`py_file`).
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/593511d3-fde2-4704-8c3e-030037802419)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/8601ea31-2c88-42d6-9441-bf5576b0e19e)
+
+Upload airflow.py file to the dags folder.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/91ef65c4-37de-42b4-85be-85187a4db78c)
+
+After few minutes DAG will appear in Airlfow UI. The DAG is scheduled to run every 10 min. Wait for the run or trigger the DAG mannually.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/52cfa6e7-e577-412c-963c-2861dc2eb4cf)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e671c5ef-ed4c-470d-b96a-636119e9b847)
+
+To understand the process check logs of each task
+
+### 🚀 gcs_sensor
+
+Sensor checks existence of objects: food-orders-us, food_daily. Success criteria met. Sensor found the file in the bucket.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/378cd73f-d29c-43d4-9d3f-3e5cf3c754d9)
+
+### 🚀 list_files
+
+Object food_daily.csv in bucket food-orders-us copied to object processed/food_daily.csv in bucket food-orders-us. Blob food_daily.csv deleted.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f1689521-8ce8-4444-b2f1-83677a6d1ac9)
+
+New folder was created.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/9451caf3-61db-4612-915f-0e3938bef965)
+
+### 🚀 beamtask
+
+A new Dataflow job was started.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/03784888-c23d-43ae-9b15-f3383dd984fe)
+
+Check completed tasks.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/922be238-59f7-413e-9415-f6cda9b772f5)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/cef67aea-f2ce-4d7a-8047-5a46cc237758)
+
+Open BigQuery to see the results.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/eebb4d73-6332-4a90-8798-e81cc5b2f628)
+
+In reality usually files come with a timestamp. I uploaded a new file to the bucket to see if solution works.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6a16b07e-7bc3-4522-9fb6-ff94347ffa63)
+
+
+Solution worked as expected. New file was copied to the processed folder and the same process repeated.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a4d449d0-35ec-42dc-b6b6-c08e91934b95)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/12d734e3-d0ae-44ff-9bd6-f1e8b27859e1)
+
+Values can be found in Xcoms. 
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/1e26c216-0a18-475d-98eb-367883d7469a)
+
 
 
 ## Composer 2
