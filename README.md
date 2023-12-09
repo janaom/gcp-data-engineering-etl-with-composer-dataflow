@@ -151,7 +151,7 @@ In reality usually files come with a timestamp. I uploaded a new file to the buc
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6a16b07e-7bc3-4522-9fb6-ff94347ffa63)
 
 
-Solution worked as expected. New file was copied to the processed folder and the same process repeated.
+Solution worked as expected. New file was copied to the processed folder and the same process repeated. The transformed data will be added to the same tables in BQ.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a4d449d0-35ec-42dc-b6b6-c08e91934b95)
 
