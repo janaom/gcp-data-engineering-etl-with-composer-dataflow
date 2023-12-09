@@ -76,7 +76,7 @@ If your code has `contrib` imports you can run it only in the Composer 1. More [
 
 Create a Composer environment.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/885a4d8f-e48c-4bc3-84c6-8a13f0cf8fb4)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f5f7d40b-67fe-4206-9501-92b042c950f7)
 
 
  - Select n1-standard-1 (1 vCPU, 3.75 GB RAM)
@@ -87,53 +87,63 @@ Create a Composer environment.
 
 It took me around 15min to create Composer 1 environment. If it fails, try different zone.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/31f6b7f2-8aee-4f5e-9471-1c31903b9ca9)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
 
 
 Upload Beam code to your Composer bucket.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/99e182d7-2259-4099-8e28-5a7a3f8bc785)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe512ed-489a-4955-b289-89d72be61dcf)
 
 
 Then go to the object details and copy gsutil URI and paste it in the DAG file (`py_file`).
 
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/9c598cf6-42d4-4792-81bc-dfdad86aebae)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/593511d3-fde2-4704-8c3e-030037802419)
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f7ee71f2-e788-4850-9ef3-ee8a388ae9b6)
 
 
 Upload the Airflow code to the dags folder.
 
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/f0e3d1f2-1d82-4acd-9ae7-a8631a920f0b)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/d8279e8f-5899-4444-93a6-e4e18ff7c3a3)
+
 
 
 The DAG will appear in Airflow UI.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/766cae5f-3062-4509-8c91-35c79eebd62d)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/82aec353-b6bd-44a5-b06a-4e0a3c28a97a)
 
 
-You can trigger the DAG manually (click on Trigger DAG).
+Wait for the run to complete or trigger the DAG manually (click on Trigger DAG).
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/40bdaccf-20aa-49e7-b96b-a4ee3ee7a8d8)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6d8420b5-d650-4ccc-98b3-0a08bb144887)
 
 
 Open Dataflow to see the progress. It takes around 6min to run Dataflow job.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/5dcffb86-c666-4197-a634-2d5c2912980b)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c34f4121-79e3-4669-870f-17c029f43610)
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/687313a1-497a-4d28-b112-89f628a73e03)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/b7f6f19b-e2d2-4c21-8ee0-8e5c8f4a7176)
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/6124d148-7c3d-460b-89d7-362f19649999)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/ae2745b8-f9ef-480b-871d-3c5db7b2e8d5)
+
+The run completed.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/b9525886-1beb-40e9-850c-5c9daaefe50a)
 
 
 You can click on the Airflow task to see the logs.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/664a77bd-fc38-45cc-b258-99b82e51e11d)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4ae7d22f-51a5-4b4a-8489-fc3946c58bcc)
+
 
 
 You should get the same results in BQ.
 
-![image](https://github.com/janaom/gcp-data-engineering-project-food-orders-etl/assets/83917694/ddd5f7b5-d809-46dc-8632-871287e4e39a)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a0a12fc2-9d07-42c6-9b7b-b0a27eb462e1)
+
 
 
 ## Composer 2
