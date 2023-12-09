@@ -1,3 +1,8 @@
+
+
+This code defines an Airflow DAG (Directed Acyclic Graph) named "food_orders_dag" that schedules the execution of a Beam pipeline on a daily basis. The DAG uses the DataFlowPythonOperator to execute the Beam pipeline defined in the file located at gs://composer-bucket/beam.py. The pipeline processes data from the input file gs://your-bucket/food_daily.csv. The DAG is configured with default arguments, including the project and region information for Dataflow, and it does not catch up on missed runs.
+
+
 ## Composer 1 
 
 If your code has `contrib` imports you can run it only in the Composer 1. More [info](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) about DataFlowPythonOperator.
