@@ -219,6 +219,8 @@ Go back to the Composer environment and install [`apache-airflow-providers-googl
 
 
 
+Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with DataflowRunPythonJobOperator to process the file.
+
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
 # <img width="30" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker
