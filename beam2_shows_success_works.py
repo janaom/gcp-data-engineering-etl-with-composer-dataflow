@@ -139,7 +139,7 @@ table_schema = 'customer_id:STRING,date:STRING,timestamp:STRING,order_id:STRING,
 	schema=table_schema,
 	create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
 	write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
-	additional_bq_parameters={'timePartitioning': {'type': 'DAY'}}
+	additional_bq_parameters={'timePartitioning': {'type': 'DAY'}},
 	)
 )
 
@@ -150,7 +150,7 @@ table_schema = 'customer_id:STRING,date:STRING,timestamp:STRING,order_id:STRING,
 	schema=table_schema,
 	create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
 	write_disposition=beam.io.BigQueryDisposition.WRITE_APPEND,
-	additional_bq_parameters={'timePartitioning': {'type': 'DAY'}}
+	additional_bq_parameters={'timePartitioning': {'type': 'DAY'}},
 	)
 )
 # Running the pipeline
