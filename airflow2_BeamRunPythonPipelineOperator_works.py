@@ -66,7 +66,7 @@ with DAG('food_orders_dag',
     beamtask = BeamRunPythonPipelineOperator(
         task_id='beam_task',
         runner='DataflowRunner',
-        py_file='gs://us-central1-food-orders-dev-afb73621-bucket/beam2.py',
+        py_file='gs://us-central1-food-orders-dev-afb73621-bucket/beam.py',
         pipeline_options={
             "input": 'gs://food-orders-us/{{ task_instance.xcom_pull("list_files") }}',
             #add other pipeline options as needed
