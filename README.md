@@ -208,10 +208,6 @@ Your DAG is set to run every 15 minutes, and it first checks for the existence o
 
 In Composer 2 you can use airflow2 file either with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator, both works.
 
-From my experience, BeamRunPythonPipelineOperator runs 5 min 3 sec and DataflowCreatePythonJobOperator 4 min 46 sec.
-
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/76ca20b0-047d-4f6d-a53c-15372f425583)
-
 
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
