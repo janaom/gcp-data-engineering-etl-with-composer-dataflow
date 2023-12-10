@@ -64,7 +64,7 @@ with DAG('food_orders_dag',
 
     beamtask = DataflowCreatePythonJobOperator(
         task_id="beam_task",
-        py_file='gs://us-central1-food-orders-dev-afb73621-bucket/beam2.py',
+        py_file='gs://us-central1-food-orders-dev-afb73621-bucket/beam.py',
         project_id='food-orders-407014',
         location='us-central1',
         job_name='food_orders_processing_job',
