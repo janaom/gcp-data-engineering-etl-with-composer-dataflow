@@ -215,6 +215,9 @@ The error message 'ModuleNotFoundError: No module named 'airflow.providers.googl
 
 Go back to the Composer environment and install [`apache-airflow-providers-google`](https://pypi.org/project/apache-airflow-providers-google/). It will take around 5min. to install one package.
 
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5e039a5b-4c17-43b0-a103-f3f506fc8946)
+
+
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
