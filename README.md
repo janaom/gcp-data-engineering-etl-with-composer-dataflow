@@ -192,13 +192,14 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e08ec066-f569-461d-b270-201ecc704679)
 
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/26994a34-059a-4b0f-ad51-1a11506e6b4f)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/0a187d3d-9ccb-49d8-96eb-ff0f0bad7487)
 
 
 
 Upload `airflow2.py` code to `dags` folder.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/518c7f43-2dcc-47d8-9a32-0c94bba84786)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/77bb1bca-9379-4de8-8b1e-52c3a9fc7d96)
+
 
 In Airflow 2 you will get a new fancy dashboard.
 
