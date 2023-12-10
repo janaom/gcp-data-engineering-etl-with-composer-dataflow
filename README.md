@@ -201,13 +201,20 @@ Upload `airflow2.py` code to `dags` folder.
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/77bb1bca-9379-4de8-8b1e-52c3a9fc7d96)
 
 
-In Airflow 2 you will get a new fancy dashboard.
+After few minutes you will see an error and DAG won't appear in the Airflow UI. This is expected. Let's see what happened.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/74c39295-ad3c-4c8e-bbe1-06c51195cb2a)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/23b3c0d7-ffd7-4a58-a01c-e41af39ca03f)
 
-Wait for the run or trigger your DAG, check logs for more info. You should see the same result in Dataflow and Bigquery.
+Open Composer environment to see the error description.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/957e9244-f6a9-4944-90d7-4b85b9a194cc)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/81b64c29-6fcc-47ef-80b3-8be69364ddcd)
+
+The error message 'ModuleNotFoundError: No module named 'airflow.providers.google.operators'' suggests that the apache-airflow-providers-google package is not installed in your environment. To fix this, you need to install the apache-airflow-providers-google package. After installing the package, you should be able to import DataflowRunPythonJobOperator and other Google-related operators and hooks from the airflow.providers.google module. Check documents and see, that this is correct: the composer-2.5.2-airflow-2.6.3 image doesn't include Dataflow package. There is only `google-cloud-dataflow-client` package. The `google-cloud-dataflow-client` package is not the same as the `apache-airflow-providers-google` package. The `google-cloud-dataflow-client` package is a Google-provided client for interacting with their Dataflow service, while the `apache-airflow-providers-google` package provides integration between Apache Airflow and various Google Cloud services, including Dataflow.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5e3c22b5-ef91-4e17-a89b-b373728a098f)
+
+Go back to the Composer environment and install [`apache-airflow-providers-google`](https://pypi.org/project/apache-airflow-providers-google/). It will take around 5min. to install one package.
+
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
