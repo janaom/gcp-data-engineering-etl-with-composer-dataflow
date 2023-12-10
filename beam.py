@@ -8,7 +8,6 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions, StandardOptions
 import argparse
 from google.cloud import bigquery
-from google.cloud.exceptions import NotFound
 
 #Command-line argument parser
 parser = argparse.ArgumentParser()
