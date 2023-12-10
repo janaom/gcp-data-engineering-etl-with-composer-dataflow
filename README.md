@@ -178,27 +178,16 @@ Create a Composer 2 environment.
 
 Select Environment size: Small.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/246826c0-862e-4572-b520-052c25ecf8e8)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/64581910-e4e2-4196-8812-4478a5af0739)
+
 
 
 The rest is the same, upload CSV file to the bucket, add Beam code to the Composer bucket, copy `gsutil URl` link and add it to the DAG.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6cbeb3ab-abb8-4854-afe3-ffdfeb232edc)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a7198bbd-db3c-49b3-b8d8-dd7b6e50d690)
 
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f899b4df-5b51-4298-9085-64bf910d1843)
-
-
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e08ec066-f569-461d-b270-201ecc704679)
-
-
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/0a187d3d-9ccb-49d8-96eb-ff0f0bad7487)
-
-
-
-Upload `airflow2.py` code to `dags` folder.
-
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/77bb1bca-9379-4de8-8b1e-52c3a9fc7d96)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/22293adc-98b2-42ba-932e-e565867b7862)
 
 
 The same beam.py, we tested in the shell can be used for both Composer 1 and Composer 2, however, you can also try to change these lines in the code:
@@ -214,6 +203,36 @@ to
 options = PipelineOptions(pipeline_args)
 options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
 ```
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c4c5018d-7eb3-448e-875c-7c975c1200a9)
+
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f28d8fa7-84f1-4e0a-8184-575aeb9e2ece)
+
+
+
+
+Upload `airflow2.py` code to `dags` folder.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/51d5a412-627c-445c-9ae8-7eb0eced72a4)
+
+
+Open Airflow UI. Wait until the DAG appears.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/2867c0f1-922e-48c8-a657-7563a9afbdcb)
+
+
+Since this time it's scheduled to run '@daily' I triggered it manually
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4b889475-d7ab-4c62-81eb-97f153b2bb91)
+
+Open Dataflow to see if the job is running.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe108f0-ddce-458e-83fa-159a4860f186)
+
+The results will be the same, the Dataflow job will create 2 tables in BigQuery.
+
 
 Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with BeamRunPythonPipelineOperator to process the file.
 
