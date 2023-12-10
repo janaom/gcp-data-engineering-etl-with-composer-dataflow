@@ -206,20 +206,13 @@ Upload `airflow2.py` code to `dags` folder.
 
 Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with BeamRunPythonPipelineOperator to process the file.
 
-In Composer 2 you can use DataflowCreatePythonJobOperator:
-```python
-    beamtask = DataflowCreatePythonJobOperator(
-        task_id="beam_task",
-        py_file='gs://us-central1-food-orders-dev-afb73621-bucket/beam2.py',
-        project_id='food-orders-407014',
-        location='us-central1',
-        job_name='food_orders_processing_job',
-        options={
-            "input": 'gs://food-orders-us/{{ task_instance.xcom_pull("list_files") }}',
-        },
-    )
-```
-But I decided to try BeamRunPythonPipelineOperator.
+In Composer 2 you can use airflow2 file either with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator, both works.
+
+From my experience, BeamRunPythonPipelineOperator runs 5 min 3 sec and DataflowCreatePythonJobOperator 4 min 46 sec.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/76ca20b0-047d-4f6d-a53c-15372f425583)
+
+
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
