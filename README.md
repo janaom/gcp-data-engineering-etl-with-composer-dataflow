@@ -203,13 +203,13 @@ Upload `airflow2.py` code to `dags` folder.
 
 The same beam.py, we tested in the shell can be used for both Composer 1 and Composer 2, however, you can also try to change these lines in the code:
 
-```
+```python
 #Pipeline options
 options = PipelineOptions(pipeline_args)
 p = beam.Pipeline(options = options)
 ```
 to
-```
+```python
 # Pipeline options
 options = PipelineOptions(pipeline_args)
 options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
