@@ -201,8 +201,19 @@ Upload `airflow2.py` code to `dags` folder.
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/77bb1bca-9379-4de8-8b1e-52c3a9fc7d96)
 
 
+The same beam.py, we tested in the shell can be used for both Composer 1 and Composer 2, however, you can also try to change these lines in the code:
 
-
+```
+#Pipeline options
+options = PipelineOptions(pipeline_args)
+p = beam.Pipeline(options = options)
+```
+to
+```
+# Pipeline options
+options = PipelineOptions(pipeline_args)
+options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
+```
 
 Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with BeamRunPythonPipelineOperator to process the file.
 
