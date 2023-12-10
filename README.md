@@ -203,13 +203,17 @@ Upload `airflow2.py` code to `dags` folder.
 
 After few minutes you will see an error and DAG won't appear in the Airflow UI. This is expected. Let's see what happened.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/23b3c0d7-ffd7-4a58-a01c-e41af39ca03f)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c434d9f9-32e3-4479-83e7-a739ffe36b51)
+
 
 Open Composer environment to see the error description.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/81b64c29-6fcc-47ef-80b3-8be69364ddcd)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6b4cf3f1-89a1-4ff1-9eed-50cc477ceb45)
 
-The error message 'ModuleNotFoundError: No module named 'airflow.providers.google.operators'' suggests that the apache-airflow-providers-google package is not installed in your environment. To fix this, you need to install the `apache-airflow-providers-google` package. After installing the package, you should be able to import DataflowRunPythonJobOperator and other Google-related operators and hooks from the airflow.providers.google module. Check documents and see, that this is correct: the [composer-2.5.2-airflow-2.6.3](https://cloud.google.com/composer/docs/concepts/versioning/composer-versions) image doesn't include Dataflow package. There is only `google-cloud-dataflow-client` package. The `google-cloud-dataflow-client` package is not the same as the `apache-airflow-providers-google` package. The `google-cloud-dataflow-client` package is a Google-provided client for interacting with their Dataflow service, while the `apache-airflow-providers-google` package provides integration between Apache Airflow and various Google Cloud services, including Dataflow. In reality you may have to install more packages, e.g. `apache-airflow-providers-ssh`, `apache-airflow-providers-smtp`, etc. packages.
+This error message is saying that Python is unable to import the DataflowRunPythonJobOperator from the module airflow.providers.google.cloud.operators.dataflow. 
+
+
+To fix this, you need to install the `apache-airflow-providers-google` package. After installing the package, you should be able to import DataflowRunPythonJobOperator and other Google-related operators and hooks from the airflow.providers.google module. Check documents and see, that this is correct: the [composer-2.5.2-airflow-2.6.3](https://cloud.google.com/composer/docs/concepts/versioning/composer-versions) image doesn't include Dataflow package. There is only `google-cloud-dataflow-client` package. The `google-cloud-dataflow-client` package is not the same as the `apache-airflow-providers-google` package. The `google-cloud-dataflow-client` package is a Google-provided client for interacting with their Dataflow service, while the `apache-airflow-providers-google` package provides integration between Apache Airflow and various Google Cloud services, including Dataflow. In reality you may have to install more packages, e.g. `apache-airflow-providers-ssh`, `apache-airflow-providers-smtp`, etc. packages.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5e3c22b5-ef91-4e17-a89b-b373728a098f)
 
@@ -219,7 +223,8 @@ Go back to the Composer environment and install [`apache-airflow-providers-googl
 
 
 
-Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with DataflowRunPythonJobOperator to process the file.
+Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with BeamRunPythonPipelineOperator to process the file.
+
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
