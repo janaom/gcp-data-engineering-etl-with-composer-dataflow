@@ -171,17 +171,30 @@ The values can be accessed and retrieved from XComs.
 
 Create a Composer 2 environment.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/349d0685-6174-4c35-8e2b-545e2f59488c)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/9d918734-cd98-49eb-a973-586d6178d341)
+
 
 ❗ It's important to give `Cloud Composer v2 API Service Agent Extension` role to your Service Account.
 
 Select Environment size: Small.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5377ced5-2b83-4f44-bdd0-fc0d51203954)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/246826c0-862e-4572-b520-052c25ecf8e8)
 
-The rest is the same, add Beam code to the Composer bucket, copy `gsutil URl` link and add it to the DAG.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4e59c352-9123-4566-b156-d98cd91fff6a)
+The rest is the same, upload CSV file to the bucket, add Beam code to the Composer bucket, copy `gsutil URl` link and add it to the DAG.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/6cbeb3ab-abb8-4854-afe3-ffdfeb232edc)
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f899b4df-5b51-4298-9085-64bf910d1843)
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e08ec066-f569-461d-b270-201ecc704679)
+
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/26994a34-059a-4b0f-ad51-1a11506e6b4f)
+
+
 
 Upload `airflow2.py` code to `dags` folder.
 
