@@ -80,7 +80,7 @@ Enable Cloud Composer API, Dataflow API: `gcloud services enable composer.google
 
 If your code contains `contrib` imports, it can only be run in Composer 1. 
 
-To launch Cloud Dataflow jobs written in Python, you can use the [DataFlowPythonOperator](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator).
+[DataFlowPythonOperator](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator) can be used to launch Dataflow jobs written in Python.
 
 To proceed, create a Composer 1 environment.
 
