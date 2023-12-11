@@ -13,8 +13,8 @@ default_args = {
     'retries': 0,
     'retry_delay': timedelta(seconds=50),
     'dataflow_default_options': {
-        'project': 'food-orders-407014',
-        'region': 'us-east1',  #Composer region
+        'project': 'project-id',  #Add project-id
+        'region': 'composer-region', #Add Composer region
         'runner': 'DataflowRunner'
     }
 }
@@ -42,7 +42,7 @@ with models.DAG('food_orders_dag',
 
     gcs_sensor = GoogleCloudStoragePrefixSensor(
         task_id='gcs_sensor',
-        bucket='food-orders-us',
+        bucket='bucket-name', #Add bucket name
         prefix='food_daily',
         mode='poke',
         poke_interval=60,  #Check every 60 seconds
@@ -52,16 +52,16 @@ with models.DAG('food_orders_dag',
     list_files_task = PythonOperator(
         task_id='list_files',
         python_callable=list_files,
-        op_kwargs={'bucket_name': 'food-orders-us', 'prefix': 'food_daily'},
+        op_kwargs={'bucket_name': 'bucket-name', 'prefix': 'food_daily'}, #Add bucket name
         do_xcom_push=True,  #This will push the return value of list_files to XCom
     )
 
     beamtask = DataFlowPythonOperator(
         task_id='beamtask',
         #Path to the Beam pipeline file
-        py_file='gs://us-east1-food-orders-dev-ebd1e0e7-bucket/beam.py',
+        py_file='gs://composer-bucket/beam.py',
         #Input file for the pipeline
-        options={'input': 'gs://food-orders-us/{{ task_instance.xcom_pull("list_files") }}'}
+        options={'input': 'gs://bucket-name/{{ task_instance.xcom_pull("list_files") }}'}
     )
 
     gcs_sensor >> list_files_task >> beamtask 
