@@ -211,7 +211,6 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/22293adc-98b2-42ba-932e-e565867b7862)
 
-Upload the `beam.py` code to the Composer bucket.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c4c5018d-7eb3-448e-875c-7c975c1200a9)
 
