@@ -175,7 +175,7 @@ The values can be accessed and retrieved from XComs.
 
 Let's move to Composer 2. Create a Composer 2 environment. 
 
-The DAGs feature two operators: [DataflowCreatePythonJobOperator](https://airflow.apache.org/docs/apache-airflow-providers-google/stable/_api/airflow/providers/google/cloud/operators/dataflow/index.html#airflow.providers.google.cloud.operators.dataflow.DataflowCreatePythonJobOperator) and [BeamRunPythonPipelineOperator](https://airflow.apache.org/docs/apache-airflow-providers-apache-beam/stable/operators.html#python-pipelines-with-dataflowrunner). While the former is still available, it has been deprecated and is no longer actively maintained. Therefore, it is highly recommended to utilize the Beam operator as a superior alternative for optimal functionality and ongoing support.
+The DAGs feature two operators: [DataflowCreatePythonJobOperator](https://airflow.apache.org/docs/apache-airflow-providers-google/stable/_api/airflow/providers/google/cloud/operators/dataflow/index.html#airflow.providers.google.cloud.operators.dataflow.DataflowCreatePythonJobOperator) and [BeamRunPythonPipelineOperator](https://airflow.apache.org/docs/apache-airflow-providers-apache-beam/stable/operators.html#python-pipelines-with-dataflowrunner). While the former is deprecated and no longer actively maintained, it is still available and functional. Although it is recommended to use the Beam operator for improved functionality and ongoing support, you can still try the deprecated operator.
 
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/9d918734-cd98-49eb-a973-586d6178d341)
