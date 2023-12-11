@@ -97,8 +97,23 @@ Creating a Composer 1 environment typically takes around 15 minutes. If the crea
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
 
+The same `beam.py`, tested in the shell, can be used for both Composer 1 and Composer 2. However, you can also try modifying these lines in the code:
+```
+#Pipeline options
+options = PipelineOptions(pipeline_args)
+p = beam.Pipeline(options = options)
+```
+to
+```
+# Pipeline options
+options = PipelineOptions(pipeline_args)
+options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
+p = beam.Pipeline(options=options)
+```
 
-Upload `beam.py` code to your Composer bucket.
+This change ensures that the pipeline is executed on Google Cloud Dataflow.
+
+Upload the `beam.py` code to the Composer bucket.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe512ed-489a-4955-b289-89d72be61dcf)
 
@@ -196,22 +211,7 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/22293adc-98b2-42ba-932e-e565867b7862)
 
-
-The same `beam.py`, tested in the shell, can be used for both Composer 1 and Composer 2. However, you can also try modifying these lines in the code:
-
-```python
-#Pipeline options
-options = PipelineOptions(pipeline_args)
-p = beam.Pipeline(options = options)
-```
-to
-```python
-# Pipeline options
-options = PipelineOptions(pipeline_args)
-options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
-p = beam.Pipeline(options=options)
-```
-This change ensures that the pipeline is executed on Google Cloud Dataflow.
+Upload the `beam.py` code to the Composer bucket.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c4c5018d-7eb3-448e-875c-7c975c1200a9)
 
