@@ -135,7 +135,7 @@ After a few minutes, the DAG will appear in the Airflow UI. For testing purposes
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/e671c5ef-ed4c-470d-b96a-636119e9b847)
 
-To gain a better understanding of the process, you can review the logs of each individual task. 
+To gain a better understanding of the process, review the logs of each individual task. 
 
 ### 🚀 gcs_sensor
 
