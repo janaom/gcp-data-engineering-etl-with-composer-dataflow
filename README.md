@@ -40,9 +40,9 @@ The pipeline consists of the following steps:
 
 👩‍💻
 
-Set the project: `gcloud config set project your-project-id`
+Set the project in the gcloud shell: `gcloud config set project your-project-id`
 
-Install Apache Beam: `pip install apache-beam[gcp]`
+Install Apache Beam in the gcloud shell: `pip install apache-beam[gcp]`
 
 Give the Beam code a test run in the shell and then check the results in BigQuery:  `python beam.py --input gs://your-bucket/food_daily.csv --temp_location gs://your-bucket`
 
@@ -64,7 +64,7 @@ To avoid any confusion, it is recommended to delete the dataset before moving fo
 
 📖
 
-The DAG monitors the GCS bucket for new files with the specified prefix using the GoogleCloudStoragePrefixSensor (for Airflow 1) or GCSObjectsWithPrefixExistenceSensor (for Airflow 2). When a new file is found, it executes the `list_files` function which uses the GCSHook to move the file to a 'processed' subdirectory and delete the original file. Finally, it triggers the execution of a Dataflow pipeline using the DataFlowPythonOperator (for Airflow 1) or DataflowRunPythonJobOperator (for Airflow 2) with the processed file as input.
+The DAG monitors the GCS bucket for new files with the specified prefix using the GoogleCloudStoragePrefixSensor (for Airflow 1) or GCSObjectsWithPrefixExistenceSensor (for Airflow 2). When a new file is found, it executes the `list_files` function which uses the GoogleCloudStorageHook (for Airflow 1) and GCSHook (for Airflow 2) to move the file to a 'processed' subdirectory and delete the original file. Finally, it triggers the execution of a Dataflow pipeline using the DataFlowPythonOperator (for Airflow 1) or DataflowCreatePythonJobOperator/BeamRunPythonPipelineOperator (for Airflow 2) with the processed file as input.
 
 This setup is ideal for recurring data processing workflows where files arrive in a GCS bucket at regular intervals (e.g., every 10 minutes) and need to be transformed using Dataflow and loaded into BigQuery. By using Apache Airflow and this DAG, you can automate and schedule the data processing workflow. The DAG ensures that the tasks are executed in the defined order and at the specified intervals.
 
@@ -76,9 +76,11 @@ Enable Cloud Composer API, Dataflow API: `gcloud services enable composer.google
 
 ## Composer 1 
 
-If your code has `contrib` imports you can run it only in the Composer 1. To know more about Airflow operators, check https://airflow.apache.org/ or https://registry.astronomer.io/
+If your code contains `contrib` imports, it can only be run in Composer 1. For more information about Airflow operators, please refer to the official Apache Airflow documentation at https://airflow.apache.org/ or the Astronomer Registry at https://registry.astronomer.io/.
 
-Create a Composer 1 environment.
+To launch Cloud Dataflow jobs written in Python, you can use the [DataFlowPythonOperator](https://airflow.apache.org/docs/apache-airflow/1.10.5/_api/airflow/contrib/operators/dataflow_operator/index.html#airflow.contrib.operators.dataflow_operator.DataFlowPythonOperator).
+
+To proceed, create a Composer 1 environment.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f5f7d40b-67fe-4206-9501-92b042c950f7)
 
@@ -94,12 +96,12 @@ Creating a Composer 1 environment typically takes around 15 minutes. If the crea
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
 
 
-Upload Beam code to your Composer bucket.
+Upload `beam.py` code to your Composer bucket.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe512ed-489a-4955-b289-89d72be61dcf)
 
 
-Go to the object details and copy `gsutil URI` and paste it in the DAG file (`py_file`).
+Go to the object details, copy `gsutil URI` and paste it in the DAG file (`py_file`).
 
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/593511d3-fde2-4704-8c3e-030037802419)
@@ -110,7 +112,7 @@ Upload `airflow.py` file to the dags folder.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/91ef65c4-37de-42b4-85be-85187a4db78c)
 
-Once a few minutes have passed, the DAG will become visible in the Airflow UI. For testing purposes, the DAG is initially scheduled to run every 10 minutes. However, you have the flexibility to modify the schedule according to your specific requirements. You can either wait for the scheduled run to occur automatically or manually trigger the DAG if you prefer.
+After a few minutes, the DAG will appear in the Airflow UI. For testing purposes, the DAG is initially scheduled to run every 10 minutes. However, you have the flexibility to modify the schedule according to your specific requirements. You can either wait for the scheduled run to occur automatically or manually trigger the DAG if you prefer.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/52cfa6e7-e577-412c-963c-2861dc2eb4cf)
 
@@ -136,11 +138,11 @@ New folder was created.
 
 ### 🚀 beamtask
 
-A new Dataflow job was started.
+The Dataflow job has just started.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/03784888-c23d-43ae-9b15-f3383dd984fe)
 
-Check completed tasks.
+Check the completed tasks.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/922be238-59f7-413e-9415-f6cda9b772f5)
 
@@ -169,7 +171,10 @@ The values can be accessed and retrieved from XComs.
 
 ## Composer 2
 
-Create a Composer 2 environment.
+Let's move to Composer 2. Create a Composer 2 environment. 
+
+The DAGs feature two operators: [DataflowCreatePythonJobOperator](https://airflow.apache.org/docs/apache-airflow-providers-google/stable/_api/airflow/providers/google/cloud/operators/dataflow/index.html#airflow.providers.google.cloud.operators.dataflow.DataflowCreatePythonJobOperator) and [BeamRunPythonPipelineOperator](https://airflow.apache.org/docs/apache-airflow-providers-apache-beam/stable/operators.html#python-pipelines-with-dataflowrunner). While the former is still available, it has been deprecated and is no longer actively maintained. Therefore, it is highly recommended to utilize the Beam operator as a superior alternative for optimal functionality and ongoing support.
+
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/9d918734-cd98-49eb-a973-586d6178d341)
 
