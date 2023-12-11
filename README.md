@@ -149,7 +149,7 @@ Object food_daily.csv in bucket food-orders-us copied to object processed/food_d
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/f1689521-8ce8-4444-b2f1-83677a6d1ac9)
 
-New folder was created.
+Folder created.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/9451caf3-61db-4612-915f-0e3938bef965)
 
