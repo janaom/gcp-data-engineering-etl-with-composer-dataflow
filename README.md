@@ -98,13 +98,13 @@ Creating a Composer 1 environment typically takes around 15 minutes. If the crea
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/a9bb70e4-0cef-4290-ba6a-c81e587046f9)
 
 The same `beam.py`, tested in the shell, can be used for both Composer 1 and Composer 2. However, you can also try modifying these lines in the code:
-```
+```python
 #Pipeline options
 options = PipelineOptions(pipeline_args)
 p = beam.Pipeline(options = options)
 ```
 to
-```
+```python
 # Pipeline options
 options = PipelineOptions(pipeline_args)
 options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
