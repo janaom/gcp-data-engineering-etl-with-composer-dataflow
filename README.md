@@ -221,34 +221,28 @@ This change ensures that the pipeline is executed on Google Cloud Dataflow.
 
 
 
-Upload `airflow2.py` code to `dags` folder.
+Upload `airflow2.py` code to the `dags` folder.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/51d5a412-627c-445c-9ae8-7eb0eced72a4)
 
 
-Open Airflow UI. Wait until the DAG appears.
+Wait for the DAG to appear in the Airflow UI.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/2867c0f1-922e-48c8-a657-7563a9afbdcb)
 
 
-Since this time it's scheduled to run '@daily' I triggered it manually
+Since it is scheduled to run '@daily' this time, I manually triggered it.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4b889475-d7ab-4c62-81eb-97f153b2bb91)
 
-Open Dataflow to see if the job is running.
+Open Dataflow to check if the job is currently running.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe108f0-ddce-458e-83fa-159a4860f186)
 
-The results will be the same, the Dataflow job will create 2 tables in BigQuery.
+As expected, the Dataflow job will create 2 tables in BigQuery.
 
 
-Your DAG is set to run every 15 minutes, and it first checks for the existence of files in a Google Cloud Storage bucket using GCSObjectsWithPrefixExistenceSensor. If files exist, it picks the first file, moves it to a 'processed' subdirectory, and then triggers a Dataflow job with BeamRunPythonPipelineOperator to process the file.
-
-In Composer 2 you can use airflow2 file either with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator, both works.
-
-
-
-❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous Free Trial option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
+❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous [Free Trial](https://cloud.google.com/free/docs/free-cloud-features#free-trial) option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
 
 # <img width="30" alt="image" src="https://seeklogo.com/images/G/google-looker-logo-B27BD25E4E-seeklogo.com.png"> Looker
 
