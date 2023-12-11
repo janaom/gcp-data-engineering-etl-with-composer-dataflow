@@ -197,7 +197,7 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/22293adc-98b2-42ba-932e-e565867b7862)
 
 
-The same beam.py, we tested in the shell can be used for both Composer 1 and Composer 2, however, you can also try to change these lines in the code:
+The same `beam.py`, tested in the shell, can be used for both Composer 1 and Composer 2. However, you can also try modifying these lines in the code:
 
 ```python
 #Pipeline options
@@ -210,6 +210,7 @@ to
 options = PipelineOptions(pipeline_args)
 options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
 ```
+This change ensures that the pipeline is executed on Google Cloud Dataflow.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/c4c5018d-7eb3-448e-875c-7c975c1200a9)
 
