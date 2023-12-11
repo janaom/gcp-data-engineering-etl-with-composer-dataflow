@@ -209,6 +209,7 @@ to
 # Pipeline options
 options = PipelineOptions(pipeline_args)
 options.view_as(StandardOptions).runner = 'Dataflow'  #Set the runner option to Dataflow. This means that the pipeline will be run on Google Cloud Dataflow
+p = beam.Pipeline(options=options)
 ```
 This change ensures that the pipeline is executed on Google Cloud Dataflow.
 
