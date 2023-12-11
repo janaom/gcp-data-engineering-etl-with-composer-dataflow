@@ -76,7 +76,7 @@ For more information about Airflow operators, please refer to the official Apach
 
 Enable Cloud Composer API, Dataflow API: `gcloud services enable composer.googleapis.com dataflow.googleapis.com`
 
-## Composer 1 
+## 🌠Composer 1 
 
 If your code contains `contrib` imports, it can only be run in Composer 1. 
 
@@ -171,7 +171,7 @@ The values can be accessed and retrieved from XComs.
 
 
 
-## Composer 2
+## 🌠Composer 2
 
 Let's move to Composer 2. Create a Composer 2 environment. 
 
