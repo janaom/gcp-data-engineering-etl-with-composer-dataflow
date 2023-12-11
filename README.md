@@ -221,9 +221,7 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 
 
 
-Upload `airflow2.py` code to the dags folder.
-
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/51d5a412-627c-445c-9ae8-7eb0eced72a4)
+Upload `airflow2.py` code to the dags folder (with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator)
 
 
 Wait for the DAG to appear in the Airflow UI.
