@@ -222,7 +222,7 @@ Upload the `beam.py` code to the Composer bucket.
 
 
 
-Upload `airflow2.py` code to the `dags` folder.
+Upload `airflow2.py` code to the dags folder.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/51d5a412-627c-445c-9ae8-7eb0eced72a4)
 
