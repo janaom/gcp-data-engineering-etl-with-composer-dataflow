@@ -145,7 +145,8 @@ The Dataflow job has just started.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/03784888-c23d-43ae-9b15-f3383dd984fe)
 
-Check the completed tasks.
+
+Check the completed tasks in Dataflow.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/922be238-59f7-413e-9415-f6cda9b772f5)
 
