@@ -207,12 +207,18 @@ The rest is the same, upload CSV file to the bucket, add Beam code to the Compos
 
 
 
-Upload `airflow2.py` code to the dags folder (with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator)
+Upload `airflow2.py` code to the dags folder (with DataflowCreatePythonJobOperator or BeamRunPythonPipelineOperator).
 
 
 Wait for the DAG to appear in the Airflow UI.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/2867c0f1-922e-48c8-a657-7563a9afbdcb)
+
+Operators will be visible in the Graph section.
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/773c5858-7166-43cd-b7f1-a249c7ccdf38)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/b0d6096d-03c8-4d00-ba80-48edb156d25e)
 
 
 Since it is scheduled to run '@daily' this time, I manually triggered it.
