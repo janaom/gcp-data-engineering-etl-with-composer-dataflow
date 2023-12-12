@@ -216,9 +216,11 @@ Wait for the DAG to appear in the Airflow UI.
 
 Operators will be visible in the Graph section.
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/773c5858-7166-43cd-b7f1-a249c7ccdf38)
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/1e6cc0bb-28a2-497c-be2d-a73a27a99d9b)
 
-![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/b0d6096d-03c8-4d00-ba80-48edb156d25e)
+
+![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow-TEST/assets/83917694/42c60726-f7da-4e0c-8d88-161a69e4fc69)
+
 
 
 Since it is scheduled to run '@daily' this time, I manually triggered it.
