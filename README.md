@@ -52,10 +52,10 @@ Give the Beam code a test run in the shell and then check the results in BigQuer
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/5f26e09a-3b98-4848-9413-097a49a84bd6)
 
 
-To avoid any confusion, it is recommended to delete the dataset before moving forward with actions that involve appending data in BigQuery.
-
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/8d18241f-4ede-431e-b123-744ed9470f0c)
+
+To avoid any confusion, it is recommended to delete the dataset before moving forward with actions that involve appending data in BigQuery.
 
 
 
