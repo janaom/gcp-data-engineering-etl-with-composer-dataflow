@@ -232,7 +232,7 @@ Open Dataflow to check if the job is currently running.
 
 ![image](https://github.com/janaom/gcp-data-engineering-etl-with-composer-dataflow/assets/83917694/4fe108f0-ddce-458e-83fa-159a4860f186)
 
-As expected, the Dataflow job will create 2 tables in BigQuery.
+As expected, the Dataflow job will create 2 tables in BigQuery. 👏🎉
 
 
 ❗ Make sure to delete Composer from your setup as it can be a costly service. It's worth mentioning that Google Cloud provides an advantageous [Free Trial](https://cloud.google.com/free/docs/free-cloud-features#free-trial) option. As a new customer, you will receive $300 in free credits, allowing you to thoroughly explore and assess the capabilities of Google Cloud without incurring any additional expenses.
