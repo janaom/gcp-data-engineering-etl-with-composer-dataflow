@@ -40,9 +40,9 @@ The pipeline consists of the following steps:
 
 👩‍💻
 
-Set the project in the gcloud shell: `gcloud config set project your-project-id`
+Set the project in the cloud shell: `gcloud config set project your-project-id`
 
-Install Apache Beam in the gcloud shell: `pip install apache-beam[gcp]`
+Install Apache Beam in the cloud shell: `pip install apache-beam[gcp]`
 
 Give the Beam code a test run in the shell and then check the results in BigQuery:  `python beam.py --input gs://your-bucket/food_daily.csv --temp_location gs://your-bucket`
 
